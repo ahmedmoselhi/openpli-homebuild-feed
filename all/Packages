@@ -1239,8 +1239,8 @@ Version: git47+0f945f3-r0
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: b346dd489b651307c3bf2345ac07820e
-SHA256sum: 7b5d0ca6945742fb0a2413061872ccac5d88814f7a4e308950ea9559e680bac5
+MD5Sum: 6cb2c09b7c58c8223e947e4409ab475d
+SHA256sum: f45da71d48f5c4dff4e2b6cd45acd7644ea980e2fcabd20e1ec44ea3144c97a4
 Size: 668
 Filename: enigma2-plugin-skins-octetfhd-dbg_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1256,8 +1256,8 @@ Recommends: enigma2-plugin-extensions-weatherplugin2-dev, enigma2-plugin-fonts-o
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: 1f87d75bb4cdef09d039c9dc49d2f411
-SHA256sum: 53c353b786d57dd75c87a6ad7cfd02ccd37e492be4c59248844931ef0bd15631
+MD5Sum: 976177ff2e0876ca8cd3bce9b2f44fdd
+SHA256sum: a3e16842ac4405cf060540a835f6440b4961fdf1a32a426bd1fa8b1cc1e77277
 Size: 744
 Filename: enigma2-plugin-skins-octetfhd-dev_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1272,8 +1272,8 @@ Depends: enigma2-plugin-extensions-weatherplugin2, enigma2-plugin-fonts-opensans
 Section: base
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: 59dabf466c37d7fc3ba8a88af7d28a72
-SHA256sum: 65ce6b73c5ab2088a3e894c8065c923269766e87b83699f1d2037b2ae25e5fc6
+MD5Sum: ec27485388dcc7f9ee9e7460bda623d8
+SHA256sum: c033f857ca6fd040b94e2d08fcfe79bb37288aa272b1644bf7f99361ba14375a
 Size: 1269698
 Filename: enigma2-plugin-skins-octetfhd_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb

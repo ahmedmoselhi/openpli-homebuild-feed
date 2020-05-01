@@ -12052,14 +12052,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport-dbg
-Version: 1.5.5+git114+7a9aec4-r0
+Version: 1.5.7+git114+7a9aec4-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1168f987cdeeb10152c26fc38734ce0d
-SHA256sum: a169485af11101cba9958864006f60807894c4858ac32de290e239154eaad8f3
-Size: 732
-Filename: enigma2-plugin-extensions-subssupport-dbg_1.5.5+git114+7a9aec4-r0_sh4.ipk
+MD5Sum: 40c2c0d6d29591a2514806cda6bc7b19
+SHA256sum: 7e8385f91677d5a1263ac9d16d167529c51654117222988b5ed62eb4f21d2917
+Size: 730
+Filename: enigma2-plugin-extensions-subssupport-dbg_1.5.7+git114+7a9aec4-r0_sh4.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins - Debugging files
 OE: enigma2-plugin-extensions-subssupport
@@ -12068,16 +12068,16 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport-dev
-Version: 1.5.5+git114+7a9aec4-r0
-Depends: enigma2-plugin-extensions-subssupport (= 1.5.5+git114+7a9aec4-r0)
+Version: 1.5.7+git114+7a9aec4-r0
+Depends: enigma2-plugin-extensions-subssupport (= 1.5.7+git114+7a9aec4-r0)
 Recommends: python-codecs-dev, python-compression-dev, python-difflib-dev, python-xmlrpc-dev, python-zlib-dev, unrar-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8d1b45d82f01183c49a09e3b58ebd49
-SHA256sum: 352ff666d0e93f8d3b4e7fc1bae2a7d792214428fa75517366f6b65d8232209e
-Size: 812
-Filename: enigma2-plugin-extensions-subssupport-dev_1.5.5+git114+7a9aec4-r0_sh4.ipk
+MD5Sum: ff10dc256bb3470f9e4c6880a3dffac2
+SHA256sum: 2520ba59b894062babc5f07f21c73cb63731416637a21edcd4f88cc38742befe
+Size: 814
+Filename: enigma2-plugin-extensions-subssupport-dev_1.5.7+git114+7a9aec4-r0_sh4.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins - Development files
 OE: enigma2-plugin-extensions-subssupport
@@ -12086,15 +12086,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.5.5+git114+7a9aec4-r0
+Version: 1.5.7+git114+7a9aec4-r0
 Depends: python-codecs, python-compression, python-difflib, python-xmlrpc, python-zlib, unrar
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 656881679b718bb194f852fa6d067be0
-SHA256sum: 12105dacdf9b0402a5950ac350b66901504ec279b28a607a60e861ec41dc01d1
-Size: 509724
-Filename: enigma2-plugin-extensions-subssupport_1.5.5+git114+7a9aec4-r0_sh4.ipk
+MD5Sum: 05b3f1d91406afe4c26434bcea8f745e
+SHA256sum: 0233c6c4f87383a780c1302874926919a37ecdb6d36be72d41f179040320ab0c
+Size: 509694
+Filename: enigma2-plugin-extensions-subssupport_1.5.7+git114+7a9aec4-r0_sh4.ipk
 Source: enigma2-plugin-extensions-subssupport.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions-subssupport
@@ -12541,6 +12541,70 @@ OE: enigma2-plugin-extensions-wakeonlan
 License: GPLv2+
 Priority: optional
 
+Package: enigma2-plugin-extensions-weatherplugin2-dbg
+Version: 1.0+git14+448eff5-r0
+Section: devel
+Architecture: sh4
+Maintainer: Open Vision Developers
+MD5Sum: 1e1d5d2900f4ae36fa566ef58d4417d1
+SHA256sum: 71e702d7eb23d2ae23336ecc613e24486cd9866db96b5f2cd90a5efbf2c67a5e
+Size: 706
+Filename: enigma2-plugin-extensions-weatherplugin2-dbg_1.0+git14+448eff5-r0_sh4.ipk
+Source: enigma2-plugin-extensions-weatherplugin2.bb
+Description: enigma2-plugin-extensions-weatherplugin2 version 1.0+gitAUTOINC+448eff5b7a-r0 - Debugging files
+OE: enigma2-plugin-extensions-weatherplugin2
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin2-dev
+Version: 1.0+git14+448eff5-r0
+Depends: enigma2-plugin-extensions-weatherplugin2 (= 1.0+git14+448eff5-r0)
+Recommends: enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: Open Vision Developers
+MD5Sum: de0e7c714a962123c44e8216080cd893
+SHA256sum: e7639bbda0ee0ba9143162da5a0b2122095700f799fe22750ce766798134eb57
+Size: 786
+Filename: enigma2-plugin-extensions-weatherplugin2-dev_1.0+git14+448eff5-r0_sh4.ipk
+Source: enigma2-plugin-extensions-weatherplugin2.bb
+Description: enigma2-plugin-extensions-weatherplugin2 version 1.0+gitAUTOINC+448eff5b7a-r0 - Development files
+OE: enigma2-plugin-extensions-weatherplugin2
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin2-src
+Version: 1.0+git14+448eff5-r0
+Depends: enigma2-plugin-extensions-weatherplugin2
+Section: devel
+Architecture: sh4
+Maintainer: Open Vision Developers
+MD5Sum: c6da18015583dce068bed3e49bee6cbd
+SHA256sum: 15e3586c142484cc1fe1f1dfa263f455867d4bb95d8c0388bec36cd24b9df85f
+Size: 8722
+Filename: enigma2-plugin-extensions-weatherplugin2-src_1.0+git14+448eff5-r0_sh4.ipk
+Source: enigma2-plugin-extensions-weatherplugin2.bb
+Description: enigma2-plugin-extensions-weatherplugin2 version 1.0+gitAUTOINC+448eff5b7a-r0 - Source files
+OE: enigma2-plugin-extensions-weatherplugin2
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin2
+Version: 1.0+git14+448eff5-r0
+Depends: enigma2-plugin-extensions-weatherplugin2, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: sh4
+Maintainer: Open Vision Developers
+MD5Sum: 4e55681e8c61eeba0a2ee8157e3965a0
+SHA256sum: 6342ae942c2e40541bcf769861063c08597856bd03ad8990a4456ac250d6d1f2
+Size: 323116
+Filename: enigma2-plugin-extensions-weatherplugin2_1.0+git14+448eff5-r0_sh4.ipk
+Source: enigma2-plugin-extensions-weatherplugin2.bb
+Description: Enigma2 Plugin: extensions-weatherplugin2
+OE: enigma2-plugin-extensions-weatherplugin2
+License: GPLv3
+Priority: optional
+
 Package: enigma2-plugin-extensions-weatherplugin
 Version: y-git4968+574b9f5-r0
 Depends: python-twisted-web
@@ -12706,14 +12770,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
-Version: 1+git478+3e096e2-r0
+Version: 1+git481+c9c2262-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2eceb821518e17281f6eb241270001d7
-SHA256sum: 5506dc1e6dc32df8f1e4b3dbb4c3532b3086761f8f3763538a5b228ee2a58557
+MD5Sum: 5bdb72fc7f9b499bf6e597808f7ebac3
+SHA256sum: 3ba9407956005b121be697e22d1d3e433a3a2ec98e9633bd79c68333a2233e17
 Size: 760
-Filename: enigma2-plugin-extensions-youtube-dbg_1+git478+3e096e2-r0_sh4.ipk
+Filename: enigma2-plugin-extensions-youtube-dbg_1+git481+c9c2262-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Debugging files
 OE: enigma2-plugin-extensions-youtube
@@ -12722,16 +12786,16 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dev
-Version: 1+git478+3e096e2-r0
-Depends: enigma2-plugin-extensions-youtube (= 1+git478+3e096e2-r0)
+Version: 1+git481+c9c2262-r0
+Depends: enigma2-plugin-extensions-youtube (= 1+git481+c9c2262-r0)
 Recommends: python-codecs-dev, python-core-dev, python-dev, python-json-dev, python-netclient-dev, python-pyopenssl-dev, python-twisted-web-dev, python-zlib-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 788fb67e7680831072bc3f9458ae4fb5
-SHA256sum: f0ae07d2569bef804b50e00d9886fd74e6ac1a3fa48638fc4b53cbe517589a43
-Size: 852
-Filename: enigma2-plugin-extensions-youtube-dev_1+git478+3e096e2-r0_sh4.ipk
+MD5Sum: 5f809da889e71c62b465ebaf214dcb7a
+SHA256sum: 494c0634d0b79aa0de26ad4b773514a1e6c0fd0746e768bf685b628cdcd56ff5
+Size: 850
+Filename: enigma2-plugin-extensions-youtube-dev_1+git481+c9c2262-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Development files
 OE: enigma2-plugin-extensions-youtube
@@ -12823,14 +12887,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-src
-Version: 1+git478+3e096e2-r0
+Version: 1+git481+c9c2262-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a85698a7b1cd3d9808e1e8a1eb3deeb7
-SHA256sum: b7cb4aa4e459b7a34de0e8d95e3575afafa58c86aa23513f756637eb00d55796
-Size: 24648
-Filename: enigma2-plugin-extensions-youtube-src_1+git478+3e096e2-r0_sh4.ipk
+MD5Sum: 69cff93e6fbe848ef9444b604595d41f
+SHA256sum: d6671e35ec72729e67dfe74332e55103ba46d3cca39e1154f1d02aaefb81032a
+Size: 24636
+Filename: enigma2-plugin-extensions-youtube-src_1+git481+c9c2262-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Source files
 OE: enigma2-plugin-extensions-youtube
@@ -12839,15 +12903,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube
-Version: 1+git478+3e096e2-r0
+Version: 1+git481+c9c2262-r0
 Depends: python-codecs, python-core, python-json, python-netclient, python-pyopenssl, python-twisted-web, python-zlib
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79fc3f4d6030e706379e06a0a658198e
-SHA256sum: 4ebf222a51df696aaa0d6133691757058464df08d1534f75b0eba709609d5cdd
-Size: 84864
-Filename: enigma2-plugin-extensions-youtube_1+git478+3e096e2-r0_sh4.ipk
+MD5Sum: f7f29a7427853a7191cd827026abc792
+SHA256sum: 590dde83bf2428f9222bcfe08dbc77889e4633a73b4e1f272e36e07ca8129012
+Size: 84868
+Filename: enigma2-plugin-extensions-youtube_1+git481+c9c2262-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos
 OE: enigma2-plugin-extensions-youtube
@@ -48868,6 +48932,205 @@ Description: GStreamer 1.0 multimedia framework
 OE: gstreamer1.0
 HomePage: http://gstreamer.freedesktop.org/
 License: LGPLv2+
+Priority: optional
+
+Package: hairtunes-dbg
+Version: 1.0+git262+fd50ed0-r0
+Recommends: alsa-lib-dbg, glibc-dbg, libcrypto-dbg, libssl-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 330b2f223d750bbddcbdb4024979d305
+SHA256sum: 2630b33f50f2c26c3c20893985677113ca011fad684e77bb793eed4dc673ce94
+Size: 714
+Filename: hairtunes-dbg_1.0+git262+fd50ed0-r0_sh4.ipk
+Source: hairtunes.bb
+Description: AirTunes protocol server - Debugging files
+OE: hairtunes
+License: GPLv2+
+Priority: optional
+
+Package: hairtunes-dev
+Version: 1.0+git262+fd50ed0-r0
+Depends: hairtunes (= 1.0+git262+fd50ed0-r0)
+Recommends: alsa-lib-dev, glibc-dev, libcrypto-dev, libssl-dev, openssl-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 238fe49c463dd3ba1b8c701a9ba67297
+SHA256sum: 2c1138d01fd7563e44bdf76c18fb9cb8024b198bd9c5a3d32c69b427f2f2062a
+Size: 746
+Filename: hairtunes-dev_1.0+git262+fd50ed0-r0_sh4.ipk
+Source: hairtunes.bb
+Description: AirTunes protocol server - Development files
+OE: hairtunes
+License: GPLv2+
+Priority: optional
+
+Package: hairtunes
+Version: 1.0+git262+fd50ed0-r0
+Depends: libasound2 (>= 1.2.1.2), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1f), libssl1.1 (>= 1.1.1f)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4457ce556d69f159d01c529d40b793be
+SHA256sum: 910a9cf22b663d214bd9ba339960fe804f3331903391c067f4bce13346a2bd3a
+Size: 12454
+Filename: hairtunes_1.0+git262+fd50ed0-r0_sh4.ipk
+Source: hairtunes.bb
+Description: AirTunes protocol server
+OE: hairtunes
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-dbg
+Version: 0.3-beta15-r1
+Recommends: glibc-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f8d89c481c462dfeb16f6c4efc276a6
+SHA256sum: 1c47aae62a08532483dce8e6c0b13dfafad9ececf7632e3f18718d9db5a3e57e
+Size: 3792
+Filename: hddtemp-dbg_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - Debugging files
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-dev
+Version: 0.3-beta15-r1
+Depends: hddtemp (= 0.3-beta15-r1)
+Recommends: glibc-dev, initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6de274955caf0530dfcf956523700107
+SHA256sum: d3502b3228404fbe15c82a0ab055457ebbcbbe1548cc47dfdad3adc575096726
+Size: 744
+Filename: hddtemp-dev_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - Development files
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-doc
+Version: 0.3-beta15-r1
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36b84ae3ea9d3b6923c1f7ca482bbf0d
+SHA256sum: 5c4f6af4059b54cf8016f1ed03249bc0e488af6bcb1ca7314dc504fafa43ebf3
+Size: 3572
+Filename: hddtemp-doc_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - Documentation files
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-locale-de
+Version: 0.3-beta15-r1
+Provides: de-translation, hddtemp-locale
+Recommends: virtual-locale-de
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8836716f87beaa804a9e1705e03d0717
+SHA256sum: f6552766afd36ea615c99288d7159f176833a99e5235d8b2f17cc9ea562f1bcb
+Size: 3596
+Filename: hddtemp-locale-de_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - de translations
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-locale-fr
+Version: 0.3-beta15-r1
+Provides: fr-translation, hddtemp-locale
+Recommends: virtual-locale-fr
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f49c53e20238dcfaf1be08a659d2ec32
+SHA256sum: 5ba113b02bf41c77eaa822a5f440e647cb85e6277fd938a8bc03293fca905956
+Size: 3312
+Filename: hddtemp-locale-fr_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - fr translations
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-locale-pt
+Version: 0.3-beta15-r1
+Provides: hddtemp-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc8ce85028ac6f9caccce64ce673cb02
+SHA256sum: 6a870c92be6e0f07b76ca511bae01b98561c16325a13327b15558f8d3452e9e2
+Size: 2164
+Filename: hddtemp-locale-pt_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - pt translations
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-locale-ru
+Version: 0.3-beta15-r1
+Provides: hddtemp-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a9cc8fdfa9e3beba02c4f7ba2c195181
+SHA256sum: 9dd014c093bb5680abe7dba3e72a30696ccb53f11ed75d1a5107da7a0d1d403c
+Size: 1964
+Filename: hddtemp-locale-ru_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - ru translations
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp-locale-sv
+Version: 0.3-beta15-r1
+Provides: hddtemp-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7e55a4abe8f06389f9cf7a011990634
+SHA256sum: 540877a8ba728917fa8d2883706255d972d526677f64471832b6fee1f4358dbd
+Size: 2148
+Filename: hddtemp-locale-sv_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon - sv translations
+OE: hddtemp
+License: GPLv2+
+Priority: optional
+
+Package: hddtemp
+Version: 0.3-beta15-r1
+Depends: libc6 (>= 2.25)
+Recommends: update-rc.d
+Section: console/network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98cf177a38c2b7d65dfb02c2c8ddcdce
+SHA256sum: 769c901891b39ddf910b7d42c0bc068abb9f20d85c9808fd4bf3b68a31b0e3d1
+Size: 20188
+Filename: hddtemp_0.3-beta15-r1_sh4.ipk
+Source: hddtemp_0.3-beta15.bb
+Description: Hard disk temperature monitor daemon
+OE: hddtemp
+License: GPLv2+
 Priority: optional
 
 Package: hdparm-dbg
@@ -86004,8 +86267,8 @@ Version: 20200501-r0
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: b44a8471fac5bf82c61d7ede771be71b
-SHA256sum: 262fca39a9b85780cfd774262fbe3b7716456c421231e1b1c619871a6abcf1a9
+MD5Sum: 7ce736726c26307fed3fc19aa75654b7
+SHA256sum: f706f8e673974e597858bda7e87014c5347ebfc1d1aa6dc6770fff681acceb82
 Size: 652
 Filename: openpli-bootlogo-dbg_20200501-r0_sh4.ipk
 Source: openpli-bootlogo.bb
@@ -86021,9 +86284,9 @@ Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: 6748b2b003050530d7ea189264503d66
-SHA256sum: 0fc73f4a50faeef314cb6faec785bdcf65a7f298180da3acce95d37df277de11
-Size: 722
+MD5Sum: c411519b943f1d438819eebe569a52cb
+SHA256sum: 08dee2400f7363219c334f0f3d4b3032f969ca0ab8a25577bb0519eea2756a8c
+Size: 724
 Filename: openpli-bootlogo-dev_20200501-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
@@ -86038,9 +86301,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: fa2cd476fa41a514b778d85f12db82f3
-SHA256sum: 12cf3428351e0124ddf0c2e3a65c03cb2d16553184d4652344a9585967631a51
-Size: 148468
+MD5Sum: 618282678d9ded81ec16aba4c4d3657b
+SHA256sum: 6d5aad6d7b7a1ea9f20f5c4967f327eced83eb359228d86959c0feb922d0b421
+Size: 148472
 Filename: openpli-bootlogo_20200501-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
@@ -106059,6 +106322,55 @@ Description: python-subprocess (source)
 OE: python
 HomePage: http://www.python.org
 License: PSFv2
+Priority: optional
+
+Package: python-subprocess32-dbg
+Version: 3.2.7-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 46e4bd89f32d416477b134d7d2905ed7
+SHA256sum: f827ac1deec8225445005ff6516dabdb8e24237895459e2bab65e633cbfbabce
+Size: 15732
+Filename: python-subprocess32-dbg_3.2.7-r0_sh4.ipk
+Source: python-subprocess32_3.2.7.bb
+Description: A backport of the subprocess module from Python 3.2 for use on 2.x - Debugging files
+OE: python-subprocess32
+License: Python-2.0
+Priority: optional
+
+Package: python-subprocess32-dev
+Version: 3.2.7-r0
+Depends: python-subprocess32 (= 3.2.7-r0)
+Recommends: glibc-dev, python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 181a3b43e42c15657500824d2586bccf
+SHA256sum: a1e7a13c280f0d98278223c30b9f762405680f53e082ebfbf5b0a983f4f3f651
+Size: 920
+Filename: python-subprocess32-dev_3.2.7-r0_sh4.ipk
+Source: python-subprocess32_3.2.7.bb
+Description: A backport of the subprocess module from Python 3.2 for use on 2.x - Development files
+OE: python-subprocess32
+License: Python-2.0
+Priority: optional
+
+Package: python-subprocess32
+Version: 3.2.7-r0
+Depends: libc6 (>= 2.25), python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28ff6de2faf9f78dc430fed7f41f1986
+SHA256sum: c46e06c1ad6cdb4dd0864b48675badb0081420cc950de95710ccf7e36d48f3b6
+Size: 33908
+Filename: python-subprocess32_3.2.7-r0_sh4.ipk
+Source: python-subprocess32_3.2.7.bb
+Description: A backport of the subprocess module from Python 3.2 for use on 2.x
+OE: python-subprocess32
+License: Python-2.0
 Priority: optional
 
 Package: python-subprocess

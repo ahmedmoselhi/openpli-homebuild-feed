@@ -105,6 +105,55 @@ OE: base-files
 License: GPLv2
 Priority: optional
 
+Package: bitratecalc-dbg
+Version: git9+d9a238f-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7cd2aab05f4245fc9805f717234be149
+SHA256sum: 5e55860f9d70941e50ea9ad5c5e5db1cea404133fb9eb57d412ce469a863b633
+Size: 2900
+Filename: bitratecalc-dbg_git9+d9a238f-r0_spark.ipk
+Source: bitratecalc_git.bb
+Description: bitratecalc version gitAUTOINC+d9a238f7dc-r0 - Debugging files
+OE: bitratecalc
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
+Package: bitratecalc-dev
+Version: git9+d9a238f-r0
+Depends: bitratecalc (= git9+d9a238f-r0)
+Recommends: enigma2-dev, glibc-dev, libgcc-dev, libstdc++-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25025c891a9cdef8511e3c5329e3f6ca
+SHA256sum: 022bed53ea45b4bf5e91ca70e45453dd1399944a0b0b4a8dbc2d1efa3fcadd07
+Size: 786
+Filename: bitratecalc-dev_git9+d9a238f-r0_spark.ipk
+Source: bitratecalc_git.bb
+Description: bitratecalc version gitAUTOINC+d9a238f7dc-r0 - Development files
+OE: bitratecalc
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
+Package: bitratecalc
+Version: git9+d9a238f-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b94b21b8e38f8aa1b9050a8f92d8cb6
+SHA256sum: f4d1aa7c1d8aa60f2f3eabeba00a2174a59925a7a2d8d1bb6dcb43cfebb70727
+Size: 6324
+Filename: bitratecalc_git9+d9a238f-r0_spark.ipk
+Source: bitratecalc_git.bb
+Description: bitratecalc version gitAUTOINC+d9a238f7dc-r0
+OE: bitratecalc
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
 Package: directfb-dbg
 Version: 1.7.7-r100
 Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, libstdc++-dbg, zlib-dbg
@@ -270,6 +319,53 @@ Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds
 OE: distro-feed-configs
 License: MIT
+Priority: optional
+
+Package: enigma2-2boom-plugins-dbg
+Version: git28+ea7099a-r0
+Section: devel
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6badd3f7b0e641c0552a565acc595ae9
+SHA256sum: 213e42bb72ef55f10223b9544396870a72ab5875730f3182020f30d0d59cd8fe
+Size: 654
+Filename: enigma2-2boom-plugins-dbg_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: 2boom plugins for Open Vision - Debugging files
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-2boom-plugins-dev
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins (= git28+ea7099a-r0)
+Recommends: bitratecalc-dev, curl-dev, ntpdate-dev, python-pycurl-dev, python-requests-dev
+Section: devel
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 545639f7698a7dbf67206e75d5c4ea59
+SHA256sum: 08f84102dea5529112869c88b615948083a6f7bd853cfea496d4b4130d30f3f1
+Size: 732
+Filename: enigma2-2boom-plugins-dev_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: 2boom plugins for Open Vision - Development files
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-2boom-plugins
+Version: git28+ea7099a-r0
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 84d6b67fd8274d871ef600e7477da343
+SHA256sum: 24bcb0e74ae577c30ac97637e27b7d827724bd72e75e692ff55437d0e471a847
+Size: 590
+Filename: enigma2-2boom-plugins_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: 2boom plugins for Open Vision
+OE: enigma2-2boom-plugins
+License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
@@ -1038,6 +1134,54 @@ OE: enigma2
 License: GPLv2
 Priority: optional
 
+Package: enigma2-plugin-extensions-arbouquet-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: c9207647bdf8f45f3439e86f34a81987
+SHA256sum: 32269faf117abdc19100bea1bf7ebc399f0da5d8fcbe14c9cd714aeda7fa1ca4
+Size: 3018
+Filename: enigma2-plugin-extensions-arbouquet-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-arbouquet (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-arbouquet-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: e8d10310545a7f43811c8d3662f59e8c
+SHA256sum: da1946aa73a3411e954360c80236e7a0fcd1fa07bc71081af718c83d89b49874
+Size: 4224
+Filename: enigma2-plugin-extensions-arbouquet-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-arbouquet (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-arbouquet
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 530db82fe5661d03e5d34767aa9f418d
+SHA256sum: 930c6a9ad70a76cf3cfa9c3569e3ffb3f6633065d3ee5d7bba0ed8dee4c87ee3
+Size: 11516
+Filename: enigma2-plugin-extensions-arbouquet_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-arbouquet
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
 Package: enigma2-plugin-extensions-cutlisteditor
 Version: Follow_OE+git18281+071dcdd-r0
 Depends: aio-grab
@@ -1085,6 +1229,150 @@ OE: enigma2
 License: GPLv2
 Priority: optional
 
+Package: enigma2-plugin-extensions-ecccam-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: b1e3fea7abe92032807c54c08993c9c5
+SHA256sum: 5b58749029c0a196c484981bf06fe07b88f741b2dcad317afd46357828997d85
+Size: 2688
+Filename: enigma2-plugin-extensions-ecccam-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ecccam (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ecccam-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 122849916763bf732b065d5a293f88ec
+SHA256sum: 2ea3ca6366d3122798b529bf4cc3390ca43b8c835b42e0c4ca2c53b4a2d3a957
+Size: 2898
+Filename: enigma2-plugin-extensions-ecccam-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ecccam (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ecccam
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 67c52eeeb29f1de49e421b7303214bac
+SHA256sum: 5fa90a3de078f61db255b42e637cdeb51547e456c17c17f6dca874919dd40a27
+Size: 7494
+Filename: enigma2-plugin-extensions-ecccam_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ecccam
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epanel-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 8fffbe1185f415969a8301dce10cfc66
+SHA256sum: 3453ae990afaa1aa5a58243926b176e3b307a995208e2a02f746ea53c7f094ca
+Size: 15094
+Filename: enigma2-plugin-extensions-epanel-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epanel (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epanel-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 483a7675301ff59b5ae13dcb23fc2ec0
+SHA256sum: 5f3d1d9af17fab15ecfd7218026dd4e79ddacc7f177d6fc0d9219a437c00b762
+Size: 26672
+Filename: enigma2-plugin-extensions-epanel-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epanel (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epanel
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins, ntpdate, python-requests
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: afbb1128c57194acc242c385d1eebc27
+SHA256sum: 03c552b69228c3f9014094cf849812e4a6e218f546a20473ca87081e83f17aaf
+Size: 146964
+Filename: enigma2-plugin-extensions-epanel_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epanel
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgdd-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 19051b9ca31c228504b33915bb3c6368
+SHA256sum: 00ef0523178e4f669b56c90d1c83e9db6dd20215dd109bb012a53b670aba5e90
+Size: 3986
+Filename: enigma2-plugin-extensions-epgdd-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epgdd (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgdd-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6b6658a8ab223c0701c126bf9e9eb4c4
+SHA256sum: 021d13df12a93bc85e772caeaba1b225360b66f9c1f02ebc80dfad169ddbb16b
+Size: 5198
+Filename: enigma2-plugin-extensions-epgdd-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epgdd (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgdd
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: d95bccb17bd3107b543d5fbacd587a64
+SHA256sum: bd0fdce9e5eb2874f0bbe6d91d6457692dc810cd9fb9c35bd82476ebb6942c8c
+Size: 13034
+Filename: enigma2-plugin-extensions-epgdd_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-epgdd
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
 Package: enigma2-plugin-extensions-graphmultiepg
 Version: Follow_OE+git18281+071dcdd-r0
 Section: base
@@ -1098,6 +1386,150 @@ Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
 License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-ipktools-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 3fa5ca9f24f32d5231e8ccd4f923ccdc
+SHA256sum: ccb14060a94e2f9e72b293526c143238badee8acab71a4a27964584e11fe36e0
+Size: 3256
+Filename: enigma2-plugin-extensions-ipktools-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ipktools (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ipktools-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6e799b642eb874e1abc13dd3750db614
+SHA256sum: 06fffd3e758bf75f3b45d0c244b08384497ccc66964717b70cb81b11c21533e0
+Size: 5758
+Filename: enigma2-plugin-extensions-ipktools-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ipktools (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ipktools
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6dd2abba31fe8516ea05629f618992f0
+SHA256sum: fb7c89c57034ec26f9aba4d77b219ceef24904febc1e19af2596ecead5e191ab
+Size: 26178
+Filename: enigma2-plugin-extensions-ipktools_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ipktools
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ltv-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6eea9f9d4409a3febcbaee2fe0eb0447
+SHA256sum: 6b250901e1b5cfdf8b27e9f722ae82a82f140ee4e4dfe0eea8a774e55e4c195b
+Size: 2460
+Filename: enigma2-plugin-extensions-ltv-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ltv (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ltv-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 2cb2f8e1b5c6fcfec2c30f6d21b3936e
+SHA256sum: b69f3f152e570a0c9f0b5c43da2017d291d5f9f3f36c2de24b4e2b291bccb66b
+Size: 2808
+Filename: enigma2-plugin-extensions-ltv-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ltv (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ltv
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 572c034198fce31e11dd10314a426386
+SHA256sum: 75564a83d437f543756b7833b73d79e49d42436cea515224a6bd825a14fbc953
+Size: 6036
+Filename: enigma2-plugin-extensions-ltv_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ltv
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-m2b-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 69911a1b8ce101fecc308e9663a1deac
+SHA256sum: 64e4f6028cbc3b3c96dd576aba079fd914638febb3c0b8563d265ea70b33a939
+Size: 3136
+Filename: enigma2-plugin-extensions-m2b-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-m2b (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-m2b-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6ec091d6ded093f7ce27b5899ee353be
+SHA256sum: 6e4b177e8e8d31a8c72af6043601f4105d14b5df06ccfc87456e044a617bb566
+Size: 3804
+Filename: enigma2-plugin-extensions-m2b-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-m2b (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-m2b
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 7754d4fd0220ea57853a14e9379741ae
+SHA256sum: 9f8187dd3e07c83432c1a66a2eb06c8fcc54d669cf0ca210989c41024171a03e
+Size: 9392
+Filename: enigma2-plugin-extensions-m2b_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-m2b
+OE: enigma2-2boom-plugins
+License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
@@ -1208,6 +1640,390 @@ Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
 License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-qcifh-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: ad96905d19c273217711048d8712bd08
+SHA256sum: 8bcfa14242b34c7c6699db7c4552a6300114593c5bed2cf1b142dbd83322f915
+Size: 2642
+Filename: enigma2-plugin-extensions-qcifh-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qcifh (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qcifh-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 3fc8024e52f6754cf74ad02b2cc7b765
+SHA256sum: c5634606a4a2e8535516d9327fd2bb91ed73de62710b6ca8b90fe95df9895ec4
+Size: 4296
+Filename: enigma2-plugin-extensions-qcifh-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qcifh (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qcifh
+Version: git28+ea7099a-r0
+Depends: bitratecalc, enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: f8ed54471453163e12a5bf85657694e5
+SHA256sum: 83bb34298ebf18923ff2c042c8478b293ce1fbf4bbc3e81343dc0a6f07c50588
+Size: 40984
+Filename: enigma2-plugin-extensions-qcifh_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qcifh
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qeifh-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: c52cf794b101ee7267b6640807b7fae5
+SHA256sum: ba3987ad91a8bb0285b9f2051b408fd4e8e6ff09e7f857a972a16b242cee7fa3
+Size: 2706
+Filename: enigma2-plugin-extensions-qeifh-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qeifh (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qeifh-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 941ad3257b07e6733d1be52f9bb9ded2
+SHA256sum: 75913ce17d7c7dcb89cd9d0ed1e35d94d808ad662702a26a81348eeee1aa9d85
+Size: 5620
+Filename: enigma2-plugin-extensions-qeifh-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qeifh (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qeifh
+Version: git28+ea7099a-r0
+Depends: bitratecalc, enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 8da38446bd16f738c4ca14efe3b1f52a
+SHA256sum: 9072fe86ce721cdb875d78fe5a7df44eebe5f9f7b220ab320e61184f13db0f22
+Size: 11184
+Filename: enigma2-plugin-extensions-qeifh_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qeifh
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qerfh-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 9adda5015680443e21c29b668256a599
+SHA256sum: a6d26bac15e1c7aa6d618b4a0763d453acb55af94e660e49221cb32c6f9699f6
+Size: 2592
+Filename: enigma2-plugin-extensions-qerfh-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qerfh (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qerfh-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: c134b9bcc8341b4855706da3b6dd7083
+SHA256sum: a78baacf3d10cab92037a9a1d0b4637a115fe13df32ec05c99e3c4364c9c84e4
+Size: 2724
+Filename: enigma2-plugin-extensions-qerfh-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qerfh (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-qerfh
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: bafbad98207b9e1ea810d95e3c741923
+SHA256sum: 6760cb4fadc4501fe1d90115a82d05f223a0b741b742ea82b593c13742d1cec8
+Size: 6934
+Filename: enigma2-plugin-extensions-qerfh_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-qerfh
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickecminfo-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: e785acd671b002bf4cfb5098572dd078
+SHA256sum: 7c903c93a3b44e54ed6e6df69034ef1d1f2dbf961234e95ccdd8adad000334c2
+Size: 2696
+Filename: enigma2-plugin-extensions-quickecminfo-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickecminfo (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickecminfo-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: bb6b514421a52f96fc2f2fc91fd2faab
+SHA256sum: 889a735f4ed804be0fb5f67e896da6c35c39358e5f0b945bde8a928f2a9cd03d
+Size: 6792
+Filename: enigma2-plugin-extensions-quickecminfo-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickecminfo (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickecminfo
+Version: git28+ea7099a-r0
+Depends: bitratecalc, enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 4d97e7893e02a2e78f92efc1ecc83fb4
+SHA256sum: 408007cdca397fa91afef1c99ec10018a54a2b628f984e0855a2c93592f90808
+Size: 13528
+Filename: enigma2-plugin-extensions-quickecminfo_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickecminfo
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickemurestart-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: aa342fd76e07c7615f78317f017524e9
+SHA256sum: d732c12ce328a99db42b250b3762e8777a8e5dc9025b2139fa9fce243b5c15c6
+Size: 2890
+Filename: enigma2-plugin-extensions-quickemurestart-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickemurestart (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickemurestart-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 8a90e84f867a1268a19e9f1e746d711c
+SHA256sum: cd6d7bb8f618b33a33c43029240e5b794d6dfa1163786bb98e787e6c72ef3dd7
+Size: 3710
+Filename: enigma2-plugin-extensions-quickemurestart-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickemurestart (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickemurestart
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: da95415d400dd5c328aaa4f13fa4647f
+SHA256sum: 8169e255ac6a5d1b644e3a6ac617f033efc6ed8c9b3d78c0c3b207cacfc50f3f
+Size: 9214
+Filename: enigma2-plugin-extensions-quickemurestart_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-quickemurestart
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-reloadsl-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 2c5a62731804f4877972c927bcafdde7
+SHA256sum: 6c28fe2dc629bd517fb4e05fa6030c8ce2d29712a6d671d4f7ba5b93ba3018e8
+Size: 2518
+Filename: enigma2-plugin-extensions-reloadsl-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-reloadsl (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-reloadsl-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 518e88e55131529889522e22a5a91717
+SHA256sum: 25c16d934484542d263dc112b83f75b2eac0c71f319e3d7161154bc80b745785
+Size: 2078
+Filename: enigma2-plugin-extensions-reloadsl-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-reloadsl (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-reloadsl
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 701b6116b878f7cee990c8aafb144621
+SHA256sum: 21f0fce62a06d273243e225bd0a1b4631588cbd8716406043210f6e0f567deca
+Size: 4042
+Filename: enigma2-plugin-extensions-reloadsl_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-reloadsl
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-remountnetshare-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6aca0e228e21f5c9c3489f92fffc4c0e
+SHA256sum: f7f5236f0e102e941ba3d6538fb0149e5fd4b8cb8c116045e07856a21c121869
+Size: 2962
+Filename: enigma2-plugin-extensions-remountnetshare-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-remountnetshare (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-remountnetshare-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: b54f95128c33b4f48fcb2ee2a96caf49
+SHA256sum: 7cddb00afa5b101ff7daf21cb1167d4f5c0aa7f032e903b8f2b0254c6ce7ad64
+Size: 3786
+Filename: enigma2-plugin-extensions-remountnetshare-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-remountnetshare (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-remountnetshare
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 8ca3f7b78e5d45bf50d76c87318a04e4
+SHA256sum: 24df44aaa7ccf661ce27ac359ed0d1a5dd6fff61f01632e8076d81fb85ede6cf
+Size: 9384
+Filename: enigma2-plugin-extensions-remountnetshare_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-remountnetshare
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-rpulite-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: bee946ed7c06013413cdee7eab6fe3d9
+SHA256sum: 0dec1acaa95792688167587f1a03f0ab0ad6a6f791d4d54d4a39fddba18a48f6
+Size: 3864
+Filename: enigma2-plugin-extensions-rpulite-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-rpulite (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-rpulite-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: f3a057485259d31d0f51c8b9dd3da799
+SHA256sum: 4322e5f58f301f8db22ce066f56cb871a105562a9d1769fc133f7b0123dd9e81
+Size: 6954
+Filename: enigma2-plugin-extensions-rpulite-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-rpulite (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-rpulite
+Version: git28+ea7099a-r0
+Depends: curl, enigma2-2boom-plugins, python-pycurl
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 96a87b3ee8ebd960f917b46b282532ab
+SHA256sum: 5e96b60b0583b15ea0db342d5b881268ab4ae1eddf9bba4a5fc87b461f123c76
+Size: 17360
+Filename: enigma2-plugin-extensions-rpulite_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-rpulite
+OE: enigma2-2boom-plugins
+License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-screenposition-dbg
@@ -1400,6 +2216,198 @@ Source: enigma2.bb
 Description: extensions-sparkvfd
 OE: enigma2
 License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tpulite-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: f54f62e146db54e0a7ba91cca07a8e84
+SHA256sum: 819384f30f85ecc75d62b8ff5ae0b86c2e5256082098376bc35f0c4e2261021b
+Size: 3412
+Filename: enigma2-plugin-extensions-tpulite-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-tpulite (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-tpulite-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: b7f0f199450b035c10c3759464eebca4
+SHA256sum: 99e434151d0af0b3d215eaa8fad3423eb98299196b4ef7323e905da4b21bba90
+Size: 4238
+Filename: enigma2-plugin-extensions-tpulite-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-tpulite (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-tpulite
+Version: git28+ea7099a-r0
+Depends: curl, enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 6416e762f3388c0897734b4974ee8485
+SHA256sum: 41c32104ba3ec3667aff7dcb9c1caad66d8c895f2c2818066fe90c3969e546d3
+Size: 12700
+Filename: enigma2-plugin-extensions-tpulite_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-tpulite
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-updatepreview-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 408b46d3410c8b81d03cd233bd64c68e
+SHA256sum: 173b720da802ba0dd2c44fcc9ba26a0bb126fced5eacd353737e0602f8d922ab
+Size: 3312
+Filename: enigma2-plugin-extensions-updatepreview-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-updatepreview (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-updatepreview-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: befb22e51cfbb2a73b5c6394767a0dd7
+SHA256sum: 78b1845feda2ff858a09f1e03299a5c20a41ffcb29848750bbda927b2e3c2bdd
+Size: 4926
+Filename: enigma2-plugin-extensions-updatepreview-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-updatepreview (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-updatepreview
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: b129d771558e79aa1bec38d90c86b0a8
+SHA256sum: d5f903a218aa0187849bb703ee0d28fca0d02596a7522a10d901faf698e9d2a8
+Size: 11274
+Filename: enigma2-plugin-extensions-updatepreview_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-updatepreview
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-yweather-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 74d158119ad259b4c6c6b56b1aed8fea
+SHA256sum: 67cf889718eaef1b785918317e91fbf52681d5a3f675514b816193315be4ad98
+Size: 8950
+Filename: enigma2-plugin-extensions-yweather-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-yweather (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-yweather-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 5aaf64e1acbd6ac7e7abd9e16407ce42
+SHA256sum: 2afcefd36c7ba2f9a62e83145770e262b836081d73618c8dab10e6fb60aeb4b5
+Size: 6988
+Filename: enigma2-plugin-extensions-yweather-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-yweather (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-yweather
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 96dab592177d9a0cd380f43768aa883b
+SHA256sum: de27bd907456bad41ed348654f9f1cdaefe138d5d433d56489adaed10081420c
+Size: 189810
+Filename: enigma2-plugin-extensions-yweather_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-yweather
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ywfh-po
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 3beee929ea2db51b067b70647ecebf8d
+SHA256sum: 185256a00e918ca3eb0a111da8e7e032759f584964de7680b47119284d47107d
+Size: 9118
+Filename: enigma2-plugin-extensions-ywfh-po_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ywfh (translations)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ywfh-src
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 16f646d607f682e234f3777c53a4eae5
+SHA256sum: fa8147fc2a0f2952c0328651211bc090f87d91cf6f646f70fbc4c62c1157ce01
+Size: 7374
+Filename: enigma2-plugin-extensions-ywfh-src_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ywfh (source files)
+OE: enigma2-2boom-plugins
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-ywfh
+Version: git28+ea7099a-r0
+Depends: enigma2-2boom-plugins
+Section: base
+Architecture: spark
+Maintainer: Open Vision Developers
+MD5Sum: 562526d6e92b0f163495389e5999d08c
+SHA256sum: fff6468b8aa682255a097a1ae0046cbc2b8643f1b640b2e0bdeb6adc7ac6951c
+Size: 190354
+Filename: enigma2-plugin-extensions-ywfh_git28+ea7099a-r0_spark.ipk
+Source: enigma2-2boom-plugins.bb
+Description: extensions-ywfh
+OE: enigma2-2boom-plugins
+License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autoshutdown-dbg
