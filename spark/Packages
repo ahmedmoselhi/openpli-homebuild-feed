@@ -4930,8 +4930,8 @@ Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg, alsa-utils-alsamixer-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24cde481a435c43af98dbf7d4b19fcdb
-SHA256sum: 1ca529a063a1f69cff17425caab8d6f6bc60cdcc2227a3d55255616192b5fc6a
+MD5Sum: 9900370c2a19bcea82129bc51c1f23aa
+SHA256sum: bcbdadbd637601c7a9cdedb2036fa851c7e18012794e2d4cbfc39283e57bc4d8
 Size: 672
 Filename: packagegroup-base-alsa-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -4946,8 +4946,8 @@ Recommends: alsa-state-dev, alsa-utils-alsactl-dev, alsa-utils-alsamixer-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b762abc1d2581dbdce15c0a276eb8eed
-SHA256sum: 9eaafb05301cd20685726c36cfb8a4c548316736a62f67b1f6cf4fe110b5010c
+MD5Sum: e3fc201b65d7eb1686b3e0656a00500a
+SHA256sum: b495e1af9d235346b79b22204352c35d965e6f933ef2a28bde35bf1a15fe32fc
 Size: 672
 Filename: packagegroup-base-alsa-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -4963,8 +4963,8 @@ Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d3837f332eb2fe0f62531be3ea3a65c
-SHA256sum: 884c6aa8f1d983ac76e06818dde32440e1a49c030819f8c8edb2e8f595527e1a
+MD5Sum: dd2f3f83fb52298019acebba9847ee1e
+SHA256sum: c4b0d304bc37eab5711368b382d94745d98137afd078e7da590a41e7ec7bae99
 Size: 706
 Filename: packagegroup-base-alsa_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -4979,9 +4979,9 @@ Recommends: bluez5-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f99613cfba36e4656a21a50f1cfc81a3
-SHA256sum: a49a9d54437f519bd55f339f9396f864fde14baf833942f48a8d3a326e6e11f8
-Size: 654
+MD5Sum: ac7e9fe058a7eb62f8e7a261434c89b7
+SHA256sum: 20ca5f15d91b319fca41b67f246450e1624d36fdaedefb28d2874a36661d1ae8
+Size: 656
 Filename: packagegroup-base-bluetooth-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -4995,8 +4995,8 @@ Recommends: bluez5-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e19aae1676d7d0fba838c97e0671c9f
-SHA256sum: ff9d644e71f31981da014bbba2220c7c1016a00f9fe21130b8a694b18798880c
+MD5Sum: 56c074625b6daed30151f60905c65482
+SHA256sum: b86b091930440eaae3d38eb7659d27669a9beaf1bfa4896f109964f7faa1cd66
 Size: 656
 Filename: packagegroup-base-bluetooth-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5012,9 +5012,9 @@ Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart,
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d44aec3d19d59d56dc1da0c42490dd02
-SHA256sum: a04c8704a52075a49754fe682a1046d37fe2a6896c5ad52a6608ac9fc84a6240
-Size: 712
+MD5Sum: 4deb4a881c5bb7b3f2b047805d137077
+SHA256sum: e0aacf10d94e7db4274a93de47666470e6c14a772d1b41d3b249bf123b9d8b79
+Size: 710
 Filename: packagegroup-base-bluetooth_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Bluetooth support
@@ -5028,9 +5028,9 @@ Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a84b21516a3765a3dc39b1d664b4e964
-SHA256sum: fa6a494947776b0ae3f2174cf8440a548afce9b34b72b7e63a79ac074bfe5843
-Size: 760
+MD5Sum: d3b8e2551c325b70862b76c73c82ec02
+SHA256sum: 19300cf53f5468a7357e44cddf579d740fb8bcd174035d15eebb81a1b7b8843e
+Size: 758
 Filename: packagegroup-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package - Debugging files
@@ -5045,8 +5045,8 @@ Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94d536990d541f67f03f46b0838a6680
-SHA256sum: 2225659d47b8766a6fdc76689dec82be6c1b734f60ee6bd8f7ab51c7fa1922d3
+MD5Sum: 700ecbd3925ef7bf802d3fd0f15b75ba
+SHA256sum: d4ff0be15708b9a7bf8596f65dab30013205cc8fbc052a2571d85022bf82fecb
 Size: 786
 Filename: packagegroup-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5061,8 +5061,8 @@ Recommends: e2fsprogs-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, hdparm-db
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8cef895411d38b0414daf54bea4b1741
-SHA256sum: 5f2fcfe99b0d7508ecb41b15883f069e08512f4b4e828d3bffbe376bfb34b7e0
+MD5Sum: 6c1f3ceccd784a0ed774370e1ce6c838
+SHA256sum: 0d3fbbe3b277972ec5df24d689ba92e72015788ff5eb929597fee62ba0b0c872
 Size: 676
 Filename: packagegroup-base-ext2-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5077,8 +5077,8 @@ Recommends: e2fsprogs-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, hdparm-de
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50f664054dbf8742c2d2d222e10182eb
-SHA256sum: b858f24b6421f26564cbdfc463e7b1509b675de7954ed1f77aa070d3b202aa8a
+MD5Sum: 0ed44ea363e25cbd5b0178fa2c767358
+SHA256sum: 0fbe56c55278d8223308031e04bd8a8a43f057154ad1a301f8b6449fab28cfb9
 Size: 676
 Filename: packagegroup-base-ext2-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5093,8 +5093,8 @@ Depends: e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs, hdparm
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4fb301d014583a5641e370f97e00235
-SHA256sum: c244c496680f10d215bf2e412b4f175ad493c644d9cebe23efbf86d1cd404d73
+MD5Sum: b4aee6599322fae59adee37309e7ecb3
+SHA256sum: da96dc6775dd0d93343be2ae36aa4eca5b05a6b10c0891c05d8b31dd0a6518e6
 Size: 680
 Filename: packagegroup-base-ext2_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5109,8 +5109,8 @@ Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg, packagegroup
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 595b49d74beedacac9a2e3bdbfded5a9
-SHA256sum: e1646f14d1265d1c153a3fd7f4e597b7488fcacab55f68f6a7092a2b65b245a8
+MD5Sum: d71847bda9e47b53e5b00119621fdea8
+SHA256sum: 97888004f6889fdfa7e9eb8e167e80c3e99522e4ad00bd59c56815db6f103439
 Size: 670
 Filename: packagegroup-base-extended-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5125,9 +5125,9 @@ Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev, packagegroup
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 22f96a336595953d8554c9e4889420e4
-SHA256sum: a6bce192c09948ffc1b3ab89044f7193d78759228e88d4d285f758681aa6c23f
-Size: 668
+MD5Sum: ce990434fe3b02b8ed7e4c789f849644
+SHA256sum: 233cdbfadcbfa19dde69a57ecfa0ea724fd14b5fdd57f7d2b5a94f1d404b17e9
+Size: 670
 Filename: packagegroup-base-extended-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5141,9 +5141,9 @@ Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-wifi
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f657666cafac2222da843f1697e2f8e3
-SHA256sum: c78d849ab71b3e31541c73009c550a376bac242f65d46c11ad827edb3042765c
-Size: 660
+MD5Sum: 4b94238ce7db33bb0f708131e760f928
+SHA256sum: 6f8de607a3cb2972d41c5d8e05006114d339efecbe6d0fd96ad0fc1bfebdb2e7
+Size: 658
 Filename: packagegroup-base-extended_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5156,9 +5156,9 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aee050fe1f334c39045f19f58e4fb904
-SHA256sum: 799a62dea29748193048ae56c8915965d23a826ad3c21665917ffc80a91892af
-Size: 636
+MD5Sum: f5cc298307f08059024394197987de89
+SHA256sum: 8450d90c912724de4bade0897f3e6426af243189c8156bfa76b13596636dd36e
+Size: 638
 Filename: packagegroup-base-ipv6-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5171,9 +5171,9 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 080a49d51ce46f727a50b38d56af033c
-SHA256sum: dbaca72d48ff446e7ceba82b33025e10685b6fd4c6e9b8d5abbdc8f4d0bb91c0
-Size: 636
+MD5Sum: 6d7dc86172e67652b30b3945550fb725
+SHA256sum: e758ad4fe0f7b8ed47fb025fabeb9725bea525f305d1ad14c47c7d3b597dcda9
+Size: 638
 Filename: packagegroup-base-ipv6-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5187,8 +5187,8 @@ Recommends: kernel-module-ipv6
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2be07040424b8d4743ce1b3aed58712
-SHA256sum: 762ef9f428d5de6afec92f090458f7d8a8cba97f787ce06baf34571422543970
+MD5Sum: a1d6b2776465876b91df1186b6ef9200
+SHA256sum: df432800b12fab756970d26164fd05cab72df1115010fa70c80f49d131fb31d1
 Size: 658
 Filename: packagegroup-base-ipv6_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5203,9 +5203,9 @@ Recommends: rpcbind-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff0e58c1d6021d9af0db06f7d315515e
-SHA256sum: d3fab87407a81c7840e3b140defc91f1faa0fe39542a81e8b62f47cc2378933e
-Size: 650
+MD5Sum: 12118c80953cc94693a40e9ca70b812e
+SHA256sum: d1b67e6db3c358e610033ef397ee4104a1aaa01a896ca751311108c4baaf868a
+Size: 652
 Filename: packagegroup-base-nfs-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5219,8 +5219,8 @@ Recommends: rpcbind-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db3c95d3764847d0700ea565f97f92cd
-SHA256sum: 026fce50f10660c9fc04d0d08df615eaee47b0cb077e40d494a9f1fb65cc83fb
+MD5Sum: e94a86c0b1f3e84764eb0fc3229c6ae4
+SHA256sum: 2a24092f99144f908a9cb0ca3b8912c8c4d67a7682a8aad3c0699ae452d2843f
 Size: 652
 Filename: packagegroup-base-nfs-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5236,8 +5236,8 @@ Recommends: kernel-module-nfs
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 25c8b2ea557181f09562d1c5be7e7146
-SHA256sum: 36546732d2fb31f3d61c6d6e6c4e599420e85fd5bfcb20c38ebccc23384b6d07
+MD5Sum: f59af9895d36811bbdae68ede6cf8de7
+SHA256sum: facecc8fc6cf59cf629a81f278493f8d4cd858b4884fe9a94172de838e8a1509
 Size: 682
 Filename: packagegroup-base-nfs_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5252,9 +5252,9 @@ Recommends: lrzsz-dbg, setserial-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9e2f84662c9f5125ea85153afefa19a
-SHA256sum: 4710a16bf262e41e838a7e998bdb0a8981d253e2e81b9f6549898e26b1bb3fc9
-Size: 658
+MD5Sum: 794ec6b264bd5e04709691a5729c0591
+SHA256sum: 1b3275f8c52c0df05cb02cf17b2c355e399b4f2de9ef5b4361f3a96bd3857ac4
+Size: 660
 Filename: packagegroup-base-serial-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5268,8 +5268,8 @@ Recommends: lrzsz-dev, setserial-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b86638e95bfb83190574f06dc88fc2c2
-SHA256sum: d633dd47709e704bf307a640ecebbabf376c833ace71ecbebb6e932e822c6d3d
+MD5Sum: b4e7f9d97951ab31b53fcafdfa544124
+SHA256sum: 25651ac8f711230e7b92cc16e3357c97e231d8f3b3eb3abe7e6fa9a4cce82731
 Size: 658
 Filename: packagegroup-base-serial-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5284,9 +5284,9 @@ Depends: lrzsz, setserial
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3f81ef83195fd93bc023438aab882dd4
-SHA256sum: 928becc714a41677b71d6099018bddadfa861a0aaf70143fae27d3b1b1b38931
-Size: 656
+MD5Sum: 4156b51dae697ed4d3defb6dbd036760
+SHA256sum: f6e616bee9766c757e571eac16e4d77db6d11dfe19f9d56c498ffb0a86ef97bc
+Size: 658
 Filename: packagegroup-base-serial_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Serial port support
@@ -5300,9 +5300,9 @@ Recommends: usbutils-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c71deb6e910142c93a4a934bda2b707
-SHA256sum: f26c33cf1aa8c62fa80ffaae1b1164131f390c2acace0571534a913e77312389
-Size: 654
+MD5Sum: c6af5bfd209b771bdc28610f372103b7
+SHA256sum: 3586760512c8fc01db18bc3a29cbead93be89afeb590ad0af50912f3e921632a
+Size: 656
 Filename: packagegroup-base-usbhost-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5316,9 +5316,9 @@ Recommends: usbutils-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1db81982ba1ab8923119a1c746da47e1
-SHA256sum: 2bb41614df6d28efc5ecdf9623a0b69fcd34455e491164f24b19bcd3ce1671aa
-Size: 656
+MD5Sum: 1732d3fddc4e5ea34279927a28f31f35
+SHA256sum: 298a04444c93b89c830beded1107b2e42d505ada52800111878b675d94ae9bff
+Size: 654
 Filename: packagegroup-base-usbhost-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5333,8 +5333,8 @@ Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-h
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dffb8157176a1e265530a2c9537fcca2
-SHA256sum: 6f05595987c65ff77a4a027eb10e8589778d6c680002942356f2df48cebfb5b7
+MD5Sum: b754ca6fcfd3b1cb42bd79242481c507
+SHA256sum: 3ffe482f09d3635b2ac585b0e157a9d90a5fd7fb512e7e3dfcbc587c4deb2588
 Size: 736
 Filename: packagegroup-base-usbhost_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5349,8 +5349,8 @@ Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29372517f53023497f0169b873a118c2
-SHA256sum: 221d68ed83ec9b37b47fc264ffa47e418b1f329d1024f7f7b49513c85f2c6cdb
+MD5Sum: bf89b5e4519042d873cbe9071fc870a6
+SHA256sum: 57759951569305d46cd29da5423124253651ab72351a938883d5d3352830e680
 Size: 682
 Filename: packagegroup-base-wifi-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5365,8 +5365,8 @@ Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c21d337011d2ae31d00a36f4064de07
-SHA256sum: e4adef58dacf39959eec401d9aaa31842db040a1537f21ddf90b302d86d29f4d
+MD5Sum: 39bb5ed3117fce2fac6d5f76e3db2699
+SHA256sum: 94ca4b84642268c666fdb590e754b21ff33e8204dd7d41c602ecd2e9266bd76d
 Size: 682
 Filename: packagegroup-base-wifi-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5382,8 +5382,8 @@ Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, ke
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba1ab76efa1c161fe81bf353acf202d4
-SHA256sum: 59b01c81df5405472bb8bdb05287891b3b6b4d6a37cb4c99d5338f866e9b54af
+MD5Sum: 3274507cf512c64d330ed5477d2d15ea
+SHA256sum: 21b0be429c51686c7b0210b449c3e0b41c3006f30898899a07939492d8bb40eb
 Size: 760
 Filename: packagegroup-base-wifi_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5398,9 +5398,9 @@ Recommends: avahi-daemon-dbg, libnss-mdns-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5779a6a9004824c0afb7992d5bb1b27e
-SHA256sum: 650fe5e80fd14c2b5cec8ef47544773093122a6a372c4ed14530665a37323e5c
-Size: 674
+MD5Sum: d8ec6999fcf15c4a74c8891a05ddd974
+SHA256sum: ac5beb78a5c249fd7159a8955e1c386e9aca6f7d3da8aa901bae840d374201db
+Size: 676
 Filename: packagegroup-base-zeroconf-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5414,9 +5414,9 @@ Recommends: avahi-daemon-dev, libnss-mdns-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44bcc5d8056136883e61ab1e40201f37
-SHA256sum: c932c090464e5d264eb1e9af64cd947cc610b0c33774f8abcbef209c4cea7340
-Size: 674
+MD5Sum: a53e2777d665d2caa664f4e9ebe9e3df
+SHA256sum: cddab64339856cafa852df716d3751e5ca56abd8980fc40c7c163bdf27098e3c
+Size: 676
 Filename: packagegroup-base-zeroconf-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5430,8 +5430,8 @@ Depends: avahi-daemon, libnss-mdns
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 968187b56e9b211ae9fea589e2907db8
-SHA256sum: 16e0bc4a83eb48eb8008cd9944279d67ce0b3ea1320b248d4212264378cce740
+MD5Sum: 61b7528547c9b63ead2e2e30270abfa2
+SHA256sum: 79daadfa247403766206176a3bc726c5fcb417e43ebaa70e07d28321268aa312
 Size: 672
 Filename: packagegroup-base-zeroconf_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5447,8 +5447,8 @@ Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, 
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 992555aaf18c6cb776f0a085202d7ab6
-SHA256sum: 6f3e6b3964dbe43223a7ff75a9b9c97dcea0841706ab81e5431fc9dac5ea2bd4
+MD5Sum: 1bf09f280de81c6ad158d461eff0477b
+SHA256sum: 32c420656439d96716e47e64d9b7fa722b4367f8baddd715fb9affc41ddff13e
 Size: 742
 Filename: packagegroup-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5512,8 +5512,8 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c889290145e00e1319f5156bae8ef967
-SHA256sum: c80dab75551f6961c618ccfa875621329996585278d6c071d2d043f6b3172f98
+MD5Sum: 3d042e4db566198fb3ef116dbdb15268
+SHA256sum: c7cb2f0e0bc6165dae46b7d1a53559fb39f4d3d098fd1c50523abf60ec201aa5
 Size: 636
 Filename: packagegroup-distro-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5527,9 +5527,9 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb3807ee1130ae25f930166bf7592fee
-SHA256sum: 97f6e356bb284379d07aa9cba93320a5edd114f814fe3b1dc8610b446d77747e
-Size: 638
+MD5Sum: 477e916a64f9bbd248433be81b74641a
+SHA256sum: ab5727d219bfa953c72ff86b5e6d0a797032679779919c4516a713ddb05fdd44
+Size: 636
 Filename: packagegroup-distro-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5542,8 +5542,8 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b61c65a0ca2a54ef9c07ff48be74bb1
-SHA256sum: f640c8e3eb04495a28a6e563b2adaee6ebf04b09a8dfb23f7e1188364ede75db
+MD5Sum: fe2f7dae459e27f90d9e4f0a4d2d315f
+SHA256sum: 33284ed21eb940e3943d62366657b1f34a83ff8cdd49b04d8368ccdb4efbfcab
 Size: 640
 Filename: packagegroup-distro-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5558,8 +5558,8 @@ Recommends: aio-grab-dbg, enigma2-plugin-systemplugins-serviceapp-dbg, libpcre-d
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e562dbbe0241faa8d2043630e14bb8e
-SHA256sum: a73ccb89cc3462a5b33b5da185bfd6818da29b395bc4d9988d69cc692b98b1bf
+MD5Sum: beee5858352ef2416136bee146465f4c
+SHA256sum: 601fdfe8a02b5e3a62fa678a89e1d6c30f96ef23256c63bf65f8881822ccbd66
 Size: 692
 Filename: packagegroup-machine-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5574,9 +5574,9 @@ Recommends: aio-grab-dev, enigma2-plugin-systemplugins-serviceapp-dev, libpcre-d
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a033dfbb1bc810977d0f2ba53f867605
-SHA256sum: 9ef7c4d05047d1465e5692429bf5103cc2a5297f6745af1d9e9a53888b045cb6
-Size: 692
+MD5Sum: 5add0e4c82a593af181aed03a8ab5f1e
+SHA256sum: 7903eb358a9ba3a030f38cc7651674d404c43fa2c4d22b10d4aefd1d4a3b81cc
+Size: 694
 Filename: packagegroup-machine-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5591,8 +5591,8 @@ Recommends: enigma2-plugin-extensions-sparkvfd, enigma2-plugin-systemplugins-ser
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8814b9f89f7d8a5269cb02a432d82753
-SHA256sum: 909361cae3a09968c81d17a2962dfb9a8364893e0251612fbce0c814f64624a4
+MD5Sum: 7968e421290717dd1c1ba383d283a296
+SHA256sum: 985be47b8ddb90d2dcc675a45d7e43afb79f6a7efece4fe0c761b4029613082e
 Size: 762
 Filename: packagegroup-machine-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb

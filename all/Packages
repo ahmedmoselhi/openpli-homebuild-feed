@@ -1239,8 +1239,8 @@ Version: git47+0f945f3-r0
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: 4304f6234bc971d068ba6833151cdb6a
-SHA256sum: c3864179470a96ccd1e5edf199f5726c78fff7c07a3c575b7b9bbc28a0837af4
+MD5Sum: b346dd489b651307c3bf2345ac07820e
+SHA256sum: 7b5d0ca6945742fb0a2413061872ccac5d88814f7a4e308950ea9559e680bac5
 Size: 668
 Filename: enigma2-plugin-skins-octetfhd-dbg_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1256,8 +1256,8 @@ Recommends: enigma2-plugin-extensions-weatherplugin2-dev, enigma2-plugin-fonts-o
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: da091df62913f4a814f63cf6084b1bb5
-SHA256sum: 90ce6246e49acfe2836209e5d9c1c50b85ee467f7c7a630a1f845e60459b252b
+MD5Sum: 1f87d75bb4cdef09d039c9dc49d2f411
+SHA256sum: 53c353b786d57dd75c87a6ad7cfd02ccd37e492be4c59248844931ef0bd15631
 Size: 744
 Filename: enigma2-plugin-skins-octetfhd-dev_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1272,8 +1272,8 @@ Depends: enigma2-plugin-extensions-weatherplugin2, enigma2-plugin-fonts-opensans
 Section: base
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: b1f25faee637406fb72c2171c43a2920
-SHA256sum: 878daac72ae0f74961c9567a590f0941d09b9b9088ed4ca4e791eaf333eaf349
+MD5Sum: 59dabf466c37d7fc3ba8a88af7d28a72
+SHA256sum: 65ce6b73c5ab2088a3e894c8065c923269766e87b83699f1d2037b2ae25e5fc6
 Size: 1269698
 Filename: enigma2-plugin-skins-octetfhd_git47+0f945f3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1379,8 +1379,8 @@ Version: 1.0+git286+b4a206c-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 41177786ce7bac6d6201fcc047781b6f
-SHA256sum: 163acd50002a168c3fd86f5d68adfd45054cb1303f6f717509de3cb5a34c8afd
+MD5Sum: ba3b0a849136e174519ea51ce92593c6
+SHA256sum: 43183b850489f080cb40fec1a93daed124e453941b0f53f1ef1c969a9f4e48a5
 Size: 670
 Filename: enigma2-plugin-skins-sevenhd-dbg_1.0+git286+b4a206c-r0_all.ipk
 Source: enigma2-plugin-skins-sevenhd.bb
@@ -1396,8 +1396,8 @@ Recommends: enigma2-plugin-systemplugins-mphelp-dev, python-imaging-dev, python-
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 71f6c253b18c9102fa62da862136e455
-SHA256sum: 4635c24e0f8b2201c1af6acc166abc02ea244ad55dc696dab4e019dea8807431
+MD5Sum: a574bd773288100de949edfaeb57c403
+SHA256sum: cb203dfe5d854267232cffecf7bab9fc9a49d65c084309e11a8b021c41a2f4e0
 Size: 760
 Filename: enigma2-plugin-skins-sevenhd-dev_1.0+git286+b4a206c-r0_all.ipk
 Source: enigma2-plugin-skins-sevenhd.bb
@@ -1412,8 +1412,8 @@ Depends: enigma2-plugin-systemplugins-mphelp, python-imaging, python-lxml, pytho
 Section: misc
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 529eabaac43006cd6646941ba3b510de
-SHA256sum: d1c26a82f4a03f168b2b1fc2bbc7d211fcb8d0b7844022ac3ff6368703f69220
+MD5Sum: a97ffbe630b97a5526bbaa332b9de9fd
+SHA256sum: 92d12bf0d2c060678f0349a39b10da47ad6f5f579aa3408c4b000199edbac0ef
 Size: 1847800
 Filename: enigma2-plugin-skins-sevenhd_1.0+git286+b4a206c-r0_all.ipk
 Source: enigma2-plugin-skins-sevenhd.bb
@@ -5116,8 +5116,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c954868b2f92c42d5bf3f5224b61f959
-SHA256sum: e56fdb31772bb1c9c4220cc96022dde917965c1fc6b8097315af59a99f1d3847
+MD5Sum: 26fa73052a8ebe4e6e8e9d01004f86ed
+SHA256sum: 4a2d5c77ce9c0d39b7516cc5e4eab5b1f94fd1c50f3f919d2c2f3a3578135089
 Size: 672
 Filename: packagegroup-openplugins-dbg_1.0-r0_all.ipk
 Source: packagegroup-openplugins.bb
@@ -5133,8 +5133,8 @@ Recommends: enigma2-plugin-extensions-addstreamurl-dev, enigma2-plugin-extension
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fda546c59385a933ec836020a3e7bfe6
-SHA256sum: 0fe461f3181f67a0cff9dea17c0a94bdbc2fb83f489020856a284c6aa06e2e63
+MD5Sum: 36014f57f115148ce4b4769c57682542
+SHA256sum: d93f3de9bc05069e9f1c4853b0da5f9182d8aa81a9192a29b929d64a2f8e4db3
 Size: 1048
 Filename: packagegroup-openplugins-dev_1.0-r0_all.ipk
 Source: packagegroup-openplugins.bb
@@ -5148,8 +5148,8 @@ Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eefae9f21d0970cde815c65a16700dbc
-SHA256sum: 25f4eced6950a118819bdefa0ded51f82abf4c48238d38c472a551e71658b4e1
+MD5Sum: 1a7aacfbc14cd951352ad25e4e8c582a
+SHA256sum: 7571ac38dd3bd033296bb9168bd36d5ac9910f72007a17e8705b111ea3602d7f
 Size: 608
 Filename: packagegroup-openplugins_1.0-r0_all.ipk
 Source: packagegroup-openplugins.bb
