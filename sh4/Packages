@@ -12808,9 +12808,9 @@ Version: 1.0-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b8f58d3dfdf0e665161dc0f9f98d499
-SHA256sum: 3c88ea4e57c2cf6ab951f5a14510e3bbae85ca2d6c89ecbe8df857ae01db69d8
-Size: 834
+MD5Sum: db72bfbd27454c3b813a34077a21197e
+SHA256sum: 9be08f15eb2f9098bb42926b6af9cfcd418c252b1d53c88f1c8e074c49d34ec6
+Size: 832
 Filename: enigma2-plugin-extensions-youtube-dl-dbg_1.0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Debugging files
@@ -12826,8 +12826,8 @@ Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3baf7e5fdae0c6aa01b6ad5a663c801
-SHA256sum: 7919ee5a6e4a3d21444f2ee0ed69416adf13254acd7bbb3923f38c790ab1a38e
+MD5Sum: 423a6dbb5fd3e6f91fe7a36667af2004
+SHA256sum: 2b86577f84783a1bfb5c32baff7db086fe6feafb42a80bf84053a814d291fcaf
 Size: 938
 Filename: enigma2-plugin-extensions-youtube-dl-dev_1.0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube-dl.bb
@@ -12842,9 +12842,9 @@ Version: 1.0-r0
 Section: doc
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: faa0461487e3075637062ee7f339df1a
-SHA256sum: 0ac2c9bc2f2f182852171d58b5f7da833fa6fc2a200bcf1c234320cc7d19eefd
-Size: 936
+MD5Sum: 556f76815d99ae0036ba35ba27d10d09
+SHA256sum: f56d87b012bbcad56fcfa85210a460778a85463191b7afe23297983552b8e251
+Size: 934
 Filename: enigma2-plugin-extensions-youtube-dl-doc_1.0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Documentation files
@@ -12858,9 +12858,9 @@ Version: 1.0-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 90831bd1f8e1ee5f888d1b83e1919fa2
-SHA256sum: 07429f443a1458a12d6fa1301b4e9670011e4d3fe3831e827797bfb515a1a396
-Size: 944124
+MD5Sum: 7d71d0cd422e7b45470eb611e249de5a
+SHA256sum: 47c20929bc83f9eb23bd00293699625b92dd507b6d5dd85395e1731eb7e5c97d
+Size: 944068
 Filename: enigma2-plugin-extensions-youtube-dl-src_1.0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Source files
@@ -12875,9 +12875,9 @@ Depends: python-argparse, python-ctypes, python-email, python-gdata, python-html
 Section: devel/python
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d573582075e1f6fe1c46247eda535ed4
-SHA256sum: dc66855420c592c3ac76364f100e13c2684a03d4a5d87714aa47813d72086cae
-Size: 1246304
+MD5Sum: 457e6aa1348a2096a4b6322f7debe315
+SHA256sum: 77614f4361685ad582f25efeb0f6425e5ed59e7883c5ac8dd3546d1e49cb3dab
+Size: 1246106
 Filename: enigma2-plugin-extensions-youtube-dl_1.0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-youtube-dl.bb
 Description: Download videos from YouTube (and more sites)
@@ -86263,14 +86263,14 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20200501-r0
+Version: 20200502-r0
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: 7ce736726c26307fed3fc19aa75654b7
-SHA256sum: f706f8e673974e597858bda7e87014c5347ebfc1d1aa6dc6770fff681acceb82
-Size: 652
-Filename: openpli-bootlogo-dbg_20200501-r0_sh4.ipk
+MD5Sum: aa9cdbd710982438417267ee8597ac37
+SHA256sum: 8e62798f06da1bdf59089c9a88298f223caf7c77c2616f97f533989d3f89be4b
+Size: 654
+Filename: openpli-bootlogo-dbg_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Debugging files
 OE: openpli-bootlogo
@@ -86278,16 +86278,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20200501-r0
-Depends: openpli-bootlogo (= 20200501-r0)
+Version: 20200502-r0
+Depends: openpli-bootlogo (= 20200502-r0)
 Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: c411519b943f1d438819eebe569a52cb
-SHA256sum: 08dee2400f7363219c334f0f3d4b3032f969ca0ab8a25577bb0519eea2756a8c
+MD5Sum: 2cdd3027efbe9bb13bfcbb00d66dbb52
+SHA256sum: 5b204da8bb7ef9f09d87d354b41d0d28ac673b986c022c3475e34ebad94fef87
 Size: 724
-Filename: openpli-bootlogo-dev_20200501-r0_sh4.ipk
+Filename: openpli-bootlogo-dev_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
 OE: openpli-bootlogo
@@ -86295,16 +86295,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20200501-r0
+Version: 20200502-r0
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: 618282678d9ded81ec16aba4c4d3657b
-SHA256sum: 6d5aad6d7b7a1ea9f20f5c4967f327eced83eb359228d86959c0feb922d0b421
-Size: 148472
-Filename: openpli-bootlogo_20200501-r0_sh4.ipk
+MD5Sum: 1dbabe32f6199166d0954e251a4740f1
+SHA256sum: e382effed49d78f7673e244ffc63fb2be3adce53a13331e56f89e26e493cb7f0
+Size: 148470
+Filename: openpli-bootlogo_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
 OE: openpli-bootlogo
