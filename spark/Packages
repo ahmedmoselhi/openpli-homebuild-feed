@@ -111,9 +111,9 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7cd2aab05f4245fc9805f717234be149
-SHA256sum: 5e55860f9d70941e50ea9ad5c5e5db1cea404133fb9eb57d412ce469a863b633
-Size: 2900
+MD5Sum: f42c2b7bd1b5fc760603001d19870e8e
+SHA256sum: 2c04e04f9ce21b44ac3ab902d6f1c80dc2c84d65e721a0a8aaed18dde5234f74
+Size: 2902
 Filename: bitratecalc-dbg_git9+d9a238f-r0_spark.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+d9a238f7dc-r0 - Debugging files
@@ -128,9 +128,9 @@ Recommends: enigma2-dev, glibc-dev, libgcc-dev, libstdc++-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 25025c891a9cdef8511e3c5329e3f6ca
-SHA256sum: 022bed53ea45b4bf5e91ca70e45453dd1399944a0b0b4a8dbc2d1efa3fcadd07
-Size: 786
+MD5Sum: b9a058be6a2866442974432d9255ff36
+SHA256sum: dc2aead28e297fd83e60eb217d0db5e4f6d5a02821dd02a5ff65af87c16ef52b
+Size: 788
 Filename: bitratecalc-dev_git9+d9a238f-r0_spark.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+d9a238f7dc-r0 - Development files
@@ -144,8 +144,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b94b21b8e38f8aa1b9050a8f92d8cb6
-SHA256sum: f4d1aa7c1d8aa60f2f3eabeba00a2174a59925a7a2d8d1bb6dcb43cfebb70727
+MD5Sum: 13128d9e9ec8b2bbbc83870ba15f7b17
+SHA256sum: 0f3dd392fe07f0784d98a1f1389241cb1205635275c750d167f8cf6c0915c8be
 Size: 6324
 Filename: bitratecalc_git9+d9a238f-r0_spark.ipk
 Source: bitratecalc_git.bb
@@ -326,8 +326,8 @@ Version: git28+ea7099a-r0
 Section: devel
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6badd3f7b0e641c0552a565acc595ae9
-SHA256sum: 213e42bb72ef55f10223b9544396870a72ab5875730f3182020f30d0d59cd8fe
+MD5Sum: 41a498bf543f628178095fbdaa812dfe
+SHA256sum: d372e92dd6613e1abaf9044bc82813864749a0ce7e8261022b3ec6c0b77c443d
 Size: 654
 Filename: enigma2-2boom-plugins-dbg_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -343,9 +343,9 @@ Recommends: bitratecalc-dev, curl-dev, ntpdate-dev, python-pycurl-dev, python-re
 Section: devel
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 545639f7698a7dbf67206e75d5c4ea59
-SHA256sum: 08f84102dea5529112869c88b615948083a6f7bd853cfea496d4b4130d30f3f1
-Size: 732
+MD5Sum: 3d0485559c00affe9b95155dd4542d1f
+SHA256sum: 9a2c49cf3552e01913d019fe1a79db7f6027fe65801ba8ccdcd3377ea2740304
+Size: 734
 Filename: enigma2-2boom-plugins-dev_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: 2boom plugins for Open Vision - Development files
@@ -358,8 +358,8 @@ Version: git28+ea7099a-r0
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 84d6b67fd8274d871ef600e7477da343
-SHA256sum: 24bcb0e74ae577c30ac97637e27b7d827724bd72e75e692ff55437d0e471a847
+MD5Sum: 0e635ef714a078e5bdccc38e51e17628
+SHA256sum: 0f458154da9fb3cfd2bf7a009e98dfb27e0449658741bc8ed63efb16b4049753
 Size: 590
 Filename: enigma2-2boom-plugins_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -368,14 +368,430 @@ OE: enigma2-2boom-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-dbg
+Version: Follow_OE+git18288+2fc7599-r0
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython2-dbg, libsigc++-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c15e5dc83889bbcf0c1cd34a5151db31
+SHA256sum: c80cb998beb4e37251de95e42186136655021d41a598776b6fc0dedf4233a743
+Size: 866
+Filename: enigma2-dbg_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2 (= Follow_OE+git18288+2fc7599-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, hotplug-e2-helper-dev, iw-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libjpeg-turbo-dev, libmad-dev, libmme-host-dev, libmme-image-dev, libpng-dev, libpython2-dev, libsigc++-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libxcrypt-dev, libxml2-dev, mjpegtools-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-service-identity-dev, python-shell-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, tuxtxt-enigma2-dev, wpa-supplicant-dev
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 430c3244a89c3178f87075bddf718ed4
+SHA256sum: 6d268bb95b2dc562c84f087793217c6a1ba3a3d8f9d459b5db5141d61049bc35
+Size: 99900
+Filename: enigma2-dev_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-fonts
+Version: 2018.08.15-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ae3294e57d561683b51d5c25bc49c8fc
+SHA256sum: 4cadca4ba44c5be2115af8ca906d2b16d10a81c1e341ad3887f471aa166686fc
+Size: 2324912
+Filename: enigma2-fonts_2018.08.15-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 46caf1e67d83f06f8b0c6e25820d8a8c
+SHA256sum: 9389152a5f17aeaa28de7e4d2cd4248bb4b6be62fc6edb7850b3bcd3807e827a
+Size: 34792
+Filename: enigma2-locale-ar_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 2163f5b89d280a128178cd0c9501cf71
+SHA256sum: e0ed6a391cad43e04316711a83ea8c0c8ea26d026db8a9706fa62b4cd679229b
+Size: 80918
+Filename: enigma2-locale-bg_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 27b116ec7218d986c455ded6aa4e6cfc
+SHA256sum: 3b130f3ecd375255831036e46cd6cc70463cddc54e569aa5e7f626d041e24198
+Size: 9896
+Filename: enigma2-locale-ca_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 226b5edac83b02b9bc7d08b4bd270b5c
+SHA256sum: e332a86ad879082a6b4103e2deb4faf3458d0cd94b80d297b1d30f75a70ff98b
+Size: 84560
+Filename: enigma2-locale-cs_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-da
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 8e2a56a34bf26e4eb6dc5ffdb5ef4227
+SHA256sum: 4958b44fe48568adcb499581c534fe8eae042dc74e6ae1056d827968c95365f8
+Size: 58088
+Filename: enigma2-locale-da_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-de
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 51fd961407cc410c1d125cf185435298
+SHA256sum: 5ea2e0312e7d9b9bc0bdff2ec34ca442863978952e43592a65f00986b3f9f67e
+Size: 88584
+Filename: enigma2-locale-de_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-el
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3e097828fb37bf42c18db8a81a83c07f
+SHA256sum: 2b1f13cdc049b51de919820b967ae23ea1ad9e0903867f345c69aa2e1d62aae9
+Size: 91536
+Filename: enigma2-locale-el_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1ef0b8c592918edf6e916da8da6dca85
+SHA256sum: 4655a733ce8df00a17a0888b7a4a2188d41b4dd8f0a0205adbd392e95780efa2
+Size: 28794
+Filename: enigma2-locale-en_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-es
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 39eb39fc1db3c512b9f5506066a4b387
+SHA256sum: 275e37af134a3646bad9095f2161be0e42e19129d534d3610119903b2d85965e
+Size: 85002
+Filename: enigma2-locale-es_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-et
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a7bd6e93336c88f71e24cb2c8f46ea2a
+SHA256sum: 50379fd39cda84bb9c7384a65625327788b588c3ece1eaf5e89911f4940d8418
+Size: 74236
+Filename: enigma2-locale-et_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c77ded7dd00eadf89fd630c07aa5f256
+SHA256sum: 75b692f38dc07eff02b7e814e5f713af75dfd9263c6525563a30331d8af35c4b
+Size: 23248
+Filename: enigma2-locale-fa_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ea79d4e5355a9459769f364abda3dfc4
+SHA256sum: 95076fc4a9c149bec1beefc084368008d6daef28dcfde110b4acff35114d00a0
+Size: 70692
+Filename: enigma2-locale-fi_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 5d49ea98a2ecb0427db801d5b96f3010
+SHA256sum: bd9150ea6f321c690599d84ca180f03568b97e2d993569e939b0a97ed3400def
+Size: 85722
+Filename: enigma2-locale-fr_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 559c7caebb5a2e232d4518d187312069
+SHA256sum: c70d21405cc97991a36bf135053f802c5c29e5e5054491d3602e5783cd7abb26
+Size: 16604
+Filename: enigma2-locale-fy_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-he
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 18a14fd494b7a71a639711ea48cc54a5
+SHA256sum: 82afa3416de7e7f23fd85c8628420e732da6e7eefe2ec38ee13b10212b1267e8
+Size: 17000
+Filename: enigma2-locale-he_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 245c01c18b7956620b691fca63a73bf9
+SHA256sum: a8ed84853019d31d9901c2a68bab18dbb6400a5240e7f947ad95a65d7e6f7556
+Size: 85164
+Filename: enigma2-locale-hr_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 87e6089de8e0ff0b059906bad227807a
+SHA256sum: a6d8ffae3bec396268af0c489108da20384505cc7d2b802ee3be3a53d82eb447
+Size: 86404
+Filename: enigma2-locale-hu_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-id
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f3ae799e4aad32495dd8f78e5929dc82
+SHA256sum: d87f21fedabda55b3540bfa13ffdfda7e166dec8f91e33b05b181b981c638881
+Size: 70804
+Filename: enigma2-locale-id_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: id
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-is
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 67e5bab6054bb12476ca2c7f78c2e794
+SHA256sum: f55c73f22affcced718d199444a83969048943136973f187255d58ce3bf3719a
+Size: 23108
+Filename: enigma2-locale-is_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-it
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 35f522faec0a4299a886e9d29bb7c591
+SHA256sum: 34990361cbe09b6cc791b44cab34b8029d3f192d329b49299b0d34e19162e6df
+Size: 81528
+Filename: enigma2-locale-it_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ffff2f451c5dc54450e1f587ec1772de
+SHA256sum: ca921c1ede5d318092553637a418bf057ed4f43111fecbba506cd5be4e1a6439
+Size: 29706
+Filename: enigma2-locale-ku_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 00941422ad5aa3427cc683c840aa5293
+SHA256sum: 260c05436c42cb2ae924b942c99918c13628a0b42330a45831aff633d96b2236
+Size: 87516
+Filename: enigma2-locale-lt_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7ac0f506cec87c761bd982ba1b857857
+SHA256sum: d658d4645004cd16c6626b8e6ee9d8df0ca895e11d76e5af72e733ada2ab05c8
+Size: 81148
+Filename: enigma2-locale-lv_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-locale-meta-dbg
 Version: 1.0-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d539b8cfea1860b77ad15d288233451
-SHA256sum: 43b73e31de053cbc5979475590aac21be50319e2b6a898c0a1cc0a930d749047
-Size: 668
+MD5Sum: 8a0c9d371ea9fdf22e434acf3f93e08f
+SHA256sum: a678e919e862a30152e6703a3a5df3e6ef4dd6399dd6a099da880a1c1a6cc104
+Size: 672
 Filename: enigma2-locale-meta-dbg_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -389,8 +805,8 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97f89f33ee6052cab4ab0fc63c52b3cc
-SHA256sum: 43f56ffedb1800aaef447de9830a88a1d03758120221a4b6e9e6e2cb3272a58c
+MD5Sum: 17ebc36e5cf32be486f2f67782a07348
+SHA256sum: 511fc84a4c0d2580a08da3b93238461fd73d847d05f188c23910b00219f8d8b9
 Size: 702
 Filename: enigma2-locale-meta-dev_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
@@ -405,14 +821,317 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6eda4941a91c20e7c95553d6ff6f0ece
-SHA256sum: 12dc4636040f979ff7fd33e9d7589da124b9e36447dde72b6c34dc0b94b14bb1
-Size: 732
+MD5Sum: 053b0261df2ba5be723928c1c9df432a
+SHA256sum: ccc224542110d39dd9f367037f621c9abf46795174a57ea68c02a8707253b785
+Size: 734
 Filename: enigma2-locale-meta_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales
 OE: enigma2-locale-meta
 License: GPLv2+
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 79b1e1c3a308ce6bfa2e97b151b316a8
+SHA256sum: 7d560f8d958bf39be14b69f926a52c90377d376c1c31e33fc4c884cdb79e67f2
+Size: 81790
+Filename: enigma2-locale-nb_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: e5822152229362ac38d455e0e982debc
+SHA256sum: 478ad6a0f6c541fd3b5e323d4ecb1f3f69ec26bef33e22c016bd3029a92b0653
+Size: 87802
+Filename: enigma2-locale-nl_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nn
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 85226739427efd3116c8ca06be3d2dbd
+SHA256sum: 41e98c72230b7619bf7e0b2f2c637cc8632a1fef7f355b82b6de00618819ad33
+Size: 44740
+Filename: enigma2-locale-nn_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: nn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: bb0e3c75f983c66d39c1be5611348402
+SHA256sum: e7f8236ed9537e7b6208220379de4c90aabbcfe0f616d7986d982c78efc9a01d
+Size: 80908
+Filename: enigma2-locale-pl_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: fbdde6ffb6c955a77deb204a74823448
+SHA256sum: 31c47bf1545e6e6499027725358188f115a64b7a71f8ab8f714d79bbe411281a
+Size: 44442
+Filename: enigma2-locale-pt-br_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 9e8921bf196891a0d4029d394c7a4fc2
+SHA256sum: d8aeeeeedbf556089fdd9a6cb3191c6e5b1c437e46e10635e4875422f6a67972
+Size: 41996
+Filename: enigma2-locale-pt_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 799d509168feee64aff9690e4d055bcb
+SHA256sum: d732c108b444a66f9f1b2647df34731e0038789c365987f7821155ccb3c5e829
+Size: 17806
+Filename: enigma2-locale-ro_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 47e8fa6a17a25f830847585ab40dc6ce
+SHA256sum: 9795f6d5d103a3bf69bf4dfdf87fee3e9b6d1a847c26d33f16421a2ad76aa69d
+Size: 89578
+Filename: enigma2-locale-ru_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4f612fbcf3c862d4abb6d8037c0d2c73
+SHA256sum: d1512dc192482cf45c389310b9289bcc057563db5ca0500857db3481cd89e25f
+Size: 86464
+Filename: enigma2-locale-sk_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 8bde54690309a76936ed5ec2e10c9c8e
+SHA256sum: bad5bd95493c8015b12f6cd31448b71e3637b73e616dca174ac0b112a5136d79
+Size: 50992
+Filename: enigma2-locale-sl_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f57852dc34da0b956deaa6672f0d99f0
+SHA256sum: a57435e6141daa7df993e567cebe4b23f4d0e598eaae00497f2bfa5a664791aa
+Size: 23114
+Filename: enigma2-locale-sr_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 339d3dc28e5075a1ae1abec891d898bc
+SHA256sum: 2b20011040b813370d1ef8dc3a4695553f7851d0f7527e112b6fbc83dc78f4f4
+Size: 59628
+Filename: enigma2-locale-sv_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-th
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: b346b6e300ba2308adc0543597bc1d4d
+SHA256sum: 4985b35ded3be813b736a1cf838916809b09d9ea00e48f8fcbbe6cce61523d0f
+Size: 21388
+Filename: enigma2-locale-th_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 9053289e1fd167a71c509c36a260c9ba
+SHA256sum: 78ab4e44bcbbd117bbe479c0da9b2ab16052823c6cc137531fc91d197fffe6fb
+Size: 57430
+Filename: enigma2-locale-tr_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: b4b43d234ae1e245f5d052d89d501eeb
+SHA256sum: 5ac707889732a036d151dafe44b05d266c861a5a4ca637967578fecb7d6f2715
+Size: 66400
+Filename: enigma2-locale-uk_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-vi
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: fdcc2c714fffa1a480439c07a4a7949a
+SHA256sum: 1a4dd6cdb51b252627f4fffdeb7a0ff2ee7469870778cf942d47a07d5b989522
+Size: 83520
+Filename: enigma2-locale-vi_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: vi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-zh-cn
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c99d436b17e365c7a663c27c0dac1499
+SHA256sum: 15b2d5199c7c38ead08417236598de3b8ac1e16c86435e0083080da9d710ba63
+Size: 23948
+Filename: enigma2-locale-zh-cn_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: zh-cn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-zh-hk
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 493c519d3b13ce140b7e80ab110927da
+SHA256sum: 5d21440529ccec749b80fabae9f0d95724318ffe8cad38cd62acea6696aab24f
+Size: 21172
+Filename: enigma2-locale-zh-hk_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: zh-hk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3ffd287794334514c6740741cbe8b027
+SHA256sum: d1a99f0354adfd7c9d8b61cc0b30c9a2009d7b1984391e40fcf4c1eccc49b6a2
+Size: 4384
+Filename: enigma2-meta_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
 Priority: optional
 
 Package: enigma2-persianempire-plugins-dbg
@@ -516,9 +1235,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: c9207647bdf8f45f3439e86f34a81987
-SHA256sum: 32269faf117abdc19100bea1bf7ebc399f0da5d8fcbe14c9cd714aeda7fa1ca4
-Size: 3018
+MD5Sum: 7eb3780c7fd918fb2a1529ba954a6f1b
+SHA256sum: 626d8ca786a48dc551f0425db38014c5974ef5bb4b7f12daeb0ea2bb9d07a67e
+Size: 3006
 Filename: enigma2-plugin-extensions-arbouquet-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-arbouquet (translations)
@@ -532,9 +1251,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: e8d10310545a7f43811c8d3662f59e8c
-SHA256sum: da1946aa73a3411e954360c80236e7a0fcd1fa07bc71081af718c83d89b49874
-Size: 4224
+MD5Sum: 63a6145dee51bedceda24f1327a07394
+SHA256sum: e7c6964fb819cf32abebf1e0f14fb42a21a65715a3fbb135d2f1c279a15970aa
+Size: 4228
 Filename: enigma2-plugin-extensions-arbouquet-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-arbouquet (source files)
@@ -548,9 +1267,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 530db82fe5661d03e5d34767aa9f418d
-SHA256sum: 930c6a9ad70a76cf3cfa9c3569e3ffb3f6633065d3ee5d7bba0ed8dee4c87ee3
-Size: 11516
+MD5Sum: 393a2061f738a4b88eebc552984fe3b1
+SHA256sum: 47de896f57e9930e1c8141fa8d51096871df4eb61fc611f1b7d3b243799795cf
+Size: 11524
 Filename: enigma2-plugin-extensions-arbouquet_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-arbouquet
@@ -702,6 +1421,22 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: aio-grab
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3fd432445a836bfd665bd0f580fdb1d1
+SHA256sum: 8008f833d119ac6aa41dc5c6824fca9adfbdf0aa76614bb6f54ed76d5625680b
+Size: 7646
+Filename: enigma2-plugin-extensions-cutlisteditor_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-deviceinfo-po
 Version: git73+6758ecf-r0
 Depends: enigma2-persianempire-plugins
@@ -750,15 +1485,46 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-extensions-dvdburn
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, python-imaging, replex
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ab3012e54646e7ae3402246a396a6f45
+SHA256sum: 945c01f63492912b3996a1d382fb61b16dcf57fd2213b1bc72d8bc2a1a243d02
+Size: 796602
+Filename: enigma2-plugin-extensions-dvdburn_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d3d7649dbdac283143e66052b6f2fd36
+SHA256sum: 3451b7d7a800052c61c6039ab9e816f76148f0549ad7278ec3e2fbf375f88ee4
+Size: 2604
+Filename: enigma2-plugin-extensions-dvdplayer_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-ecccam-po
 Version: git28+ea7099a-r0
 Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: b1e3fea7abe92032807c54c08993c9c5
-SHA256sum: 5b58749029c0a196c484981bf06fe07b88f741b2dcad317afd46357828997d85
-Size: 2688
+MD5Sum: 9acfd25779b1aa214667ea7a25bfd9a7
+SHA256sum: 49bf2e4e30285817203060469bf642a58818a7d45a039c90f555e7d107a5cfc6
+Size: 2694
 Filename: enigma2-plugin-extensions-ecccam-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ecccam (translations)
@@ -772,9 +1538,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 122849916763bf732b065d5a293f88ec
-SHA256sum: 2ea3ca6366d3122798b529bf4cc3390ca43b8c835b42e0c4ca2c53b4a2d3a957
-Size: 2898
+MD5Sum: 11e70504c7c30de54bba9eb0776b1b43
+SHA256sum: b8dde3e3b160aad676619b2f40570bd4868c880a9a291e69681b2aac9135e7bf
+Size: 2894
 Filename: enigma2-plugin-extensions-ecccam-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ecccam (source files)
@@ -788,9 +1554,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 67c52eeeb29f1de49e421b7303214bac
-SHA256sum: 5fa90a3de078f61db255b42e637cdeb51547e456c17c17f6dca874919dd40a27
-Size: 7494
+MD5Sum: 323a8ff08c5fbaec3a17ff26587da35e
+SHA256sum: 6ab5ba6c65757739ec73dcf1a6bdccbf29e60c52906ec81714951cda6204e3b2
+Size: 7490
 Filename: enigma2-plugin-extensions-ecccam_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ecccam
@@ -804,9 +1570,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 8fffbe1185f415969a8301dce10cfc66
-SHA256sum: 3453ae990afaa1aa5a58243926b176e3b307a995208e2a02f746ea53c7f094ca
-Size: 15094
+MD5Sum: 2ee825b538b29205f04c326fa77fe88e
+SHA256sum: 10033eb33a03143278df8745e6da2cd78ebfe13f5547b990a5f16bcdd93dd76d
+Size: 15086
 Filename: enigma2-plugin-extensions-epanel-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-epanel (translations)
@@ -820,9 +1586,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 483a7675301ff59b5ae13dcb23fc2ec0
-SHA256sum: 5f3d1d9af17fab15ecfd7218026dd4e79ddacc7f177d6fc0d9219a437c00b762
-Size: 26672
+MD5Sum: ba80766e9713fd241ec8866cb4a73be7
+SHA256sum: dc64f677cc0561c27e28ca77367aae207bbdef39ef77f8e5780bed872e5a8080
+Size: 26662
 Filename: enigma2-plugin-extensions-epanel-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-epanel (source files)
@@ -836,9 +1602,9 @@ Depends: enigma2-2boom-plugins, ntpdate, python-requests
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: afbb1128c57194acc242c385d1eebc27
-SHA256sum: 03c552b69228c3f9014094cf849812e4a6e218f546a20473ca87081e83f17aaf
-Size: 146964
+MD5Sum: 9e9d7287e320291a949fffe5ed88337e
+SHA256sum: 32cb00244c2e7daf91c9e19593e14ed219f8a0168006adac20fa087a2c454a50
+Size: 147148
 Filename: enigma2-plugin-extensions-epanel_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-epanel
@@ -852,9 +1618,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 19051b9ca31c228504b33915bb3c6368
-SHA256sum: 00ef0523178e4f669b56c90d1c83e9db6dd20215dd109bb012a53b670aba5e90
-Size: 3986
+MD5Sum: 08767478c61de402d8bb79495fcc24ce
+SHA256sum: e6a50e13a7a2296846f9a0c3f306ab6f5af1a5cf39bd758af8a1ae8fa00e4e3b
+Size: 3982
 Filename: enigma2-plugin-extensions-epgdd-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-epgdd (translations)
@@ -868,8 +1634,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6b6658a8ab223c0701c126bf9e9eb4c4
-SHA256sum: 021d13df12a93bc85e772caeaba1b225360b66f9c1f02ebc80dfad169ddbb16b
+MD5Sum: 2bcde9d95a1b89bc644a682bf6f69601
+SHA256sum: 5df718fdbdd04065677314d4b005ae4c3bc5d67c6fdd881c8e2656830e084c47
 Size: 5198
 Filename: enigma2-plugin-extensions-epgdd-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -884,8 +1650,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: d95bccb17bd3107b543d5fbacd587a64
-SHA256sum: bd0fdce9e5eb2874f0bbe6d91d6457692dc810cd9fb9c35bd82476ebb6942c8c
+MD5Sum: 1468af9aaefe25d67fe7bd971a02173e
+SHA256sum: cd0419d7b767bc25fd9ed747e4f0a742fe7b7d5283944d8329526eda564360ee
 Size: 13034
 Filename: enigma2-plugin-extensions-epgdd_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -942,15 +1708,30 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: bf1efa9c5a284208f84459323af80b3e
+SHA256sum: 75ab61f59d49a8b3beb93ecca2e2fc411948a89ef80be4dd703fb75945e8f760
+Size: 21980
+Filename: enigma2-plugin-extensions-graphmultiepg_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-ipktools-po
 Version: git28+ea7099a-r0
 Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 3fa5ca9f24f32d5231e8ccd4f923ccdc
-SHA256sum: ccb14060a94e2f9e72b293526c143238badee8acab71a4a27964584e11fe36e0
-Size: 3256
+MD5Sum: b6a074b13842f15e6d1b1e648ff6396a
+SHA256sum: 02aa419d9e2591e6f543b5bc50e8952b3a707c37bb9631b93f33ba3ee17855b5
+Size: 3258
 Filename: enigma2-plugin-extensions-ipktools-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ipktools (translations)
@@ -964,9 +1745,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6e799b642eb874e1abc13dd3750db614
-SHA256sum: 06fffd3e758bf75f3b45d0c244b08384497ccc66964717b70cb81b11c21533e0
-Size: 5758
+MD5Sum: a93461fa9359f5df232432fd130a07d4
+SHA256sum: 0eef3131b367dd231462d958eb2da8876ed97ef52f0d9e85b66a7394077e8960
+Size: 5762
 Filename: enigma2-plugin-extensions-ipktools-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ipktools (source files)
@@ -980,9 +1761,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6dd2abba31fe8516ea05629f618992f0
-SHA256sum: fb7c89c57034ec26f9aba4d77b219ceef24904febc1e19af2596ecead5e191ab
-Size: 26178
+MD5Sum: 01a01820c0cc479f84009012b729457b
+SHA256sum: 236b3afc9e47184a8355b81125aa1641cc1ec843940e532e669ad859e23dbb33
+Size: 26158
 Filename: enigma2-plugin-extensions-ipktools_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ipktools
@@ -1044,9 +1825,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6eea9f9d4409a3febcbaee2fe0eb0447
-SHA256sum: 6b250901e1b5cfdf8b27e9f722ae82a82f140ee4e4dfe0eea8a774e55e4c195b
-Size: 2460
+MD5Sum: 47933cf24d1a0df59b1477e9e04baed1
+SHA256sum: 2cfeedb1dfd4584e69b338ec16e14f0dfb68f93d92c78a69e994a1682d826352
+Size: 2472
 Filename: enigma2-plugin-extensions-ltv-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ltv (translations)
@@ -1060,9 +1841,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 2cb2f8e1b5c6fcfec2c30f6d21b3936e
-SHA256sum: b69f3f152e570a0c9f0b5c43da2017d291d5f9f3f36c2de24b4e2b291bccb66b
-Size: 2808
+MD5Sum: a4119744607eacf1ab65105b2ef35db4
+SHA256sum: 1923c864d7b20a28de032324ab8c019835569a399e6f802a255da31f0f72628a
+Size: 2812
 Filename: enigma2-plugin-extensions-ltv-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ltv (source files)
@@ -1076,9 +1857,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 572c034198fce31e11dd10314a426386
-SHA256sum: 75564a83d437f543756b7833b73d79e49d42436cea515224a6bd825a14fbc953
-Size: 6036
+MD5Sum: bde2bdeb6b596337c5c14bf98a3126c6
+SHA256sum: 95b9f2bf99596f6c3ef57637a58ab59555f586697c36d6a342bdddabed6ffb22
+Size: 6056
 Filename: enigma2-plugin-extensions-ltv_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ltv
@@ -1092,9 +1873,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 69911a1b8ce101fecc308e9663a1deac
-SHA256sum: 64e4f6028cbc3b3c96dd576aba079fd914638febb3c0b8563d265ea70b33a939
-Size: 3136
+MD5Sum: 58d15c5c4992e287730220b98e44ae77
+SHA256sum: bd5a228aa4a4423f1e30bb16d15b1e7d7c61626d63b18043010cb8ff11e1183b
+Size: 3152
 Filename: enigma2-plugin-extensions-m2b-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-m2b (translations)
@@ -1108,8 +1889,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6ec091d6ded093f7ce27b5899ee353be
-SHA256sum: 6e4b177e8e8d31a8c72af6043601f4105d14b5df06ccfc87456e044a617bb566
+MD5Sum: 9d7745a5009b884d1dc1e4a19f20d1fb
+SHA256sum: ef1ea5bca1108401112e90d1f8591704ce4adb8a05caebe3563a0aa55352878d
 Size: 3804
 Filename: enigma2-plugin-extensions-m2b-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1124,14 +1905,44 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 7754d4fd0220ea57853a14e9379741ae
-SHA256sum: 9f8187dd3e07c83432c1a66a2eb06c8fcc54d669cf0ca210989c41024171a03e
-Size: 9392
+MD5Sum: 1f6f29fd56681777731b7b51ab8402ef
+SHA256sum: 3ecfa7fceb68235a03f88b3a975ddabf49282dbada10ef4394e7670aef4b3709
+Size: 9400
 Filename: enigma2-plugin-extensions-m2b_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-m2b
 OE: enigma2-2boom-plugins
 License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 5cac5df4ac1611afd3c6a1e5249d3d3f
+SHA256sum: cdd06f119cee749377ed226b856795672842ab81617676d368adb8243fc6490f
+Size: 20410
+Filename: enigma2-plugin-extensions-mediaplayer_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a90322cd0e456c040aee46fca9112e45
+SHA256sum: ab396d53d94d16d1afa9c72eb3112351cd7db802f359f40d61abe668602d5d6f
+Size: 5324
+Filename: enigma2-plugin-extensions-mediascanner_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-navibarpe-po
@@ -1535,6 +2346,21 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-extensions-pictureplayer
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f0a2f79f87fdd8cabd575d3978ed08a2
+SHA256sum: 771c0b4287594f33260a4bc7904b147ba28ca4e397cbe37dd17861e7aa2ffd5a
+Size: 13196
+Filename: enigma2-plugin-extensions-pictureplayer_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-pureprestige-src
 Version: git73+6758ecf-r0
 Depends: enigma2-persianempire-plugins
@@ -1573,9 +2399,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: ad96905d19c273217711048d8712bd08
-SHA256sum: 8bcfa14242b34c7c6699db7c4552a6300114593c5bed2cf1b142dbd83322f915
-Size: 2642
+MD5Sum: 6a4993a082818403e143dff9f70317e6
+SHA256sum: 264a233f31bcccf38de4d788bccd0c45c08c5cfd109b00d5389570dcae280abe
+Size: 2660
 Filename: enigma2-plugin-extensions-qcifh-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qcifh (translations)
@@ -1589,9 +2415,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 3fc8024e52f6754cf74ad02b2cc7b765
-SHA256sum: c5634606a4a2e8535516d9327fd2bb91ed73de62710b6ca8b90fe95df9895ec4
-Size: 4296
+MD5Sum: 4ea3cf466bc7abf61e4447f82330d90f
+SHA256sum: 04d9fe75b7adab323d7c48dee2fcd874507439e36f5ab1f226063399aefcc89a
+Size: 4300
 Filename: enigma2-plugin-extensions-qcifh-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qcifh (source files)
@@ -1605,9 +2431,9 @@ Depends: bitratecalc, enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: f8ed54471453163e12a5bf85657694e5
-SHA256sum: 83bb34298ebf18923ff2c042c8478b293ce1fbf4bbc3e81343dc0a6f07c50588
-Size: 40984
+MD5Sum: 5004c5ff66330fece08059fb0ff36c9a
+SHA256sum: e1a9cbadc55dcc03274511ac113cbca7d0501dd8a9ba83bf34ff7364bccc808a
+Size: 40976
 Filename: enigma2-plugin-extensions-qcifh_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qcifh
@@ -1621,9 +2447,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: c52cf794b101ee7267b6640807b7fae5
-SHA256sum: ba3987ad91a8bb0285b9f2051b408fd4e8e6ff09e7f857a972a16b242cee7fa3
-Size: 2706
+MD5Sum: 88d4a92a1ee6cf7fb19f7284fe18e7eb
+SHA256sum: 2e8138aeebedb2a462ffe2db1181278f5b5be4dd292cbba3f4b66920cde7a4e0
+Size: 2712
 Filename: enigma2-plugin-extensions-qeifh-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qeifh (translations)
@@ -1637,8 +2463,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 941ad3257b07e6733d1be52f9bb9ded2
-SHA256sum: 75913ce17d7c7dcb89cd9d0ed1e35d94d808ad662702a26a81348eeee1aa9d85
+MD5Sum: da300ec3d91dd6fa795ac9a8114a5258
+SHA256sum: 26878ad2daee049370295190b92ff71a41142cbc2824941bf9a0b35726766eee
 Size: 5620
 Filename: enigma2-plugin-extensions-qeifh-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1653,9 +2479,9 @@ Depends: bitratecalc, enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 8da38446bd16f738c4ca14efe3b1f52a
-SHA256sum: 9072fe86ce721cdb875d78fe5a7df44eebe5f9f7b220ab320e61184f13db0f22
-Size: 11184
+MD5Sum: d1988adabc731392a0f8bcbe3c8bd763
+SHA256sum: f96cf2e4ac52f2437df0b6dd8db5b27b83ddc062848c5f5814fe2e12d02aee50
+Size: 11208
 Filename: enigma2-plugin-extensions-qeifh_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qeifh
@@ -1669,9 +2495,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 9adda5015680443e21c29b668256a599
-SHA256sum: a6d26bac15e1c7aa6d618b4a0763d453acb55af94e660e49221cb32c6f9699f6
-Size: 2592
+MD5Sum: 2504d1decaa9c67ff3b977d073507c10
+SHA256sum: 0bc08760cb44318184247a36c6c448c1d62ac1b3b56ffb0d0af8a9778051a377
+Size: 2594
 Filename: enigma2-plugin-extensions-qerfh-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qerfh (translations)
@@ -1685,9 +2511,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: c134b9bcc8341b4855706da3b6dd7083
-SHA256sum: a78baacf3d10cab92037a9a1d0b4637a115fe13df32ec05c99e3c4364c9c84e4
-Size: 2724
+MD5Sum: dce01a7e49d43465c7b36e797a8c5c07
+SHA256sum: 73243905ac07a9d23d3a0982b41764ec5d04926f2e246355993a263e577fe878
+Size: 2728
 Filename: enigma2-plugin-extensions-qerfh-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qerfh (source files)
@@ -1701,9 +2527,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: bafbad98207b9e1ea810d95e3c741923
-SHA256sum: 6760cb4fadc4501fe1d90115a82d05f223a0b741b742ea82b593c13742d1cec8
-Size: 6934
+MD5Sum: b379274c62737e340038cd1d0b2c967a
+SHA256sum: 6af6a13d6ceffb1f3c980a81434796fd2e629a33cac4ad5584cb95bf399bd79e
+Size: 6946
 Filename: enigma2-plugin-extensions-qerfh_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-qerfh
@@ -1717,8 +2543,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: e785acd671b002bf4cfb5098572dd078
-SHA256sum: 7c903c93a3b44e54ed6e6df69034ef1d1f2dbf961234e95ccdd8adad000334c2
+MD5Sum: ba9a4dd6187ccf45674740ef261a66d9
+SHA256sum: 9cba669f17360d98d460f4e02a2bd06c1dc5b146886ff20f43706f61d76f25fc
 Size: 2696
 Filename: enigma2-plugin-extensions-quickecminfo-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1733,8 +2559,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: bb6b514421a52f96fc2f2fc91fd2faab
-SHA256sum: 889a735f4ed804be0fb5f67e896da6c35c39358e5f0b945bde8a928f2a9cd03d
+MD5Sum: 602f48af2b32b3b2bd560399db7355a8
+SHA256sum: 4f0c08ffb98f887985579cff869e91234701a829279b7d8f508461730ac9253f
 Size: 6792
 Filename: enigma2-plugin-extensions-quickecminfo-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1749,9 +2575,9 @@ Depends: bitratecalc, enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 4d97e7893e02a2e78f92efc1ecc83fb4
-SHA256sum: 408007cdca397fa91afef1c99ec10018a54a2b628f984e0855a2c93592f90808
-Size: 13528
+MD5Sum: 591b8c7e9aee37638c503b2174360662
+SHA256sum: 9b7775c9230ce91e16a1aea95be26c10e33f959f4899ec1031ab5cd3c29365bf
+Size: 13520
 Filename: enigma2-plugin-extensions-quickecminfo_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-quickecminfo
@@ -1765,8 +2591,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: aa342fd76e07c7615f78317f017524e9
-SHA256sum: d732c12ce328a99db42b250b3762e8777a8e5dc9025b2139fa9fce243b5c15c6
+MD5Sum: 1028070134cd91afe3ec7291410f8805
+SHA256sum: b60e3ac8ed0423753afb62d03c8c8d43f7961ea6b83122fd230090282e8b8345
 Size: 2890
 Filename: enigma2-plugin-extensions-quickemurestart-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1781,9 +2607,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 8a90e84f867a1268a19e9f1e746d711c
-SHA256sum: cd6d7bb8f618b33a33c43029240e5b794d6dfa1163786bb98e787e6c72ef3dd7
-Size: 3710
+MD5Sum: 9e2c49325139d86df99c20e280e3331f
+SHA256sum: fd2a23597bb1b4cd7fd846e2719488561992d3b9b57c5dbfebbdf3fea7fbdf09
+Size: 3714
 Filename: enigma2-plugin-extensions-quickemurestart-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-quickemurestart (source files)
@@ -1797,9 +2623,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: da95415d400dd5c328aaa4f13fa4647f
-SHA256sum: 8169e255ac6a5d1b644e3a6ac617f033efc6ed8c9b3d78c0c3b207cacfc50f3f
-Size: 9214
+MD5Sum: 911a1532e14e0aff9b5a56e0d0af03ba
+SHA256sum: 62e713340a448eb62d3f85d4d40d0524802020e22ee5675a3960e72d0cc8c045
+Size: 9190
 Filename: enigma2-plugin-extensions-quickemurestart_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-quickemurestart
@@ -1861,8 +2687,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 2c5a62731804f4877972c927bcafdde7
-SHA256sum: 6c28fe2dc629bd517fb4e05fa6030c8ce2d29712a6d671d4f7ba5b93ba3018e8
+MD5Sum: 7242e0afcb037c6a753eb6cf45a00db3
+SHA256sum: 20fa68ec015828df3c4e6d3216d9ff4954380bf4f5b4ff0aae5a8a6498a2663b
 Size: 2518
 Filename: enigma2-plugin-extensions-reloadsl-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1877,8 +2703,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 518e88e55131529889522e22a5a91717
-SHA256sum: 25c16d934484542d263dc112b83f75b2eac0c71f319e3d7161154bc80b745785
+MD5Sum: 9f4a2b406b05a4aebdb41bc50335a82f
+SHA256sum: a0d2e5a858b684f70d8588e7864b68b41552eaaf0fb15b76a3c82583778dec65
 Size: 2078
 Filename: enigma2-plugin-extensions-reloadsl-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1893,9 +2719,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 701b6116b878f7cee990c8aafb144621
-SHA256sum: 21f0fce62a06d273243e225bd0a1b4631588cbd8716406043210f6e0f567deca
-Size: 4042
+MD5Sum: ab5dbf5463565fa906ddbb6f97d650a3
+SHA256sum: adde7fc715d4f24776a2106de31273a41183a5fc905992b4d4184fe69f4d0c3f
+Size: 4068
 Filename: enigma2-plugin-extensions-reloadsl_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-reloadsl
@@ -1909,9 +2735,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6aca0e228e21f5c9c3489f92fffc4c0e
-SHA256sum: f7f5236f0e102e941ba3d6538fb0149e5fd4b8cb8c116045e07856a21c121869
-Size: 2962
+MD5Sum: d8635a04663d93e5c928204b50d9e0aa
+SHA256sum: c06ad594b9e1c9fe7df81e5d1211e258fb1782dafb73e516ab6d9899ff264f3f
+Size: 2966
 Filename: enigma2-plugin-extensions-remountnetshare-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-remountnetshare (translations)
@@ -1925,8 +2751,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: b54f95128c33b4f48fcb2ee2a96caf49
-SHA256sum: 7cddb00afa5b101ff7daf21cb1167d4f5c0aa7f032e903b8f2b0254c6ce7ad64
+MD5Sum: 0399491d1dfbb17aa1ca0f6be160b476
+SHA256sum: 04409a1e195b57e28ab945f45f879824e3ad91fa3e69f62398a323ba1c8e6021
 Size: 3786
 Filename: enigma2-plugin-extensions-remountnetshare-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -1941,9 +2767,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 8ca3f7b78e5d45bf50d76c87318a04e4
-SHA256sum: 24df44aaa7ccf661ce27ac359ed0d1a5dd6fff61f01632e8076d81fb85ede6cf
-Size: 9384
+MD5Sum: 8d73190ef659c3cbfbf9afae933a698c
+SHA256sum: b244dd5c8a9ae896891946628ac4cc919b279770896b499c168d694493cf61a1
+Size: 9364
 Filename: enigma2-plugin-extensions-remountnetshare_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-remountnetshare
@@ -1957,9 +2783,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: bee946ed7c06013413cdee7eab6fe3d9
-SHA256sum: 0dec1acaa95792688167587f1a03f0ab0ad6a6f791d4d54d4a39fddba18a48f6
-Size: 3864
+MD5Sum: a6d3b1bb402beed123fa0f8b70b15b93
+SHA256sum: 256135cf1de4a733efeb6940f1671641d5acfdec2191099e2675963067ad993a
+Size: 3856
 Filename: enigma2-plugin-extensions-rpulite-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-rpulite (translations)
@@ -1973,9 +2799,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: f3a057485259d31d0f51c8b9dd3da799
-SHA256sum: 4322e5f58f301f8db22ce066f56cb871a105562a9d1769fc133f7b0123dd9e81
-Size: 6954
+MD5Sum: bf2e31a9b2a4ff40bc36e22e14c43430
+SHA256sum: f7b8c11df4ada7d2757458627acbd8e2d209897832b85e8e01b9ba5fbf34fad2
+Size: 6952
 Filename: enigma2-plugin-extensions-rpulite-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-rpulite (source files)
@@ -1989,9 +2815,9 @@ Depends: curl, enigma2-2boom-plugins, python-pycurl
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 96a87b3ee8ebd960f917b46b282532ab
-SHA256sum: 5e96b60b0583b15ea0db342d5b881268ab4ae1eddf9bba4a5fc87b461f123c76
-Size: 17360
+MD5Sum: 06a1ce4abd1bce1559e44d750c0f850f
+SHA256sum: 1bb019b10d35e334460e44475991e7c00b4b00160e8f97765c207f1b45c1557f
+Size: 17308
 Filename: enigma2-plugin-extensions-rpulite_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-rpulite
@@ -2129,6 +2955,53 @@ OE: enigma2-plugin-extensions-shootyourscreen
 License: GPLv2+
 Priority: optional
 
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: Follow_OE+git18288+2fc7599-r0
+Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython2-dbg, libsigc++-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 662b16d3039953cd40d3d0f78517db72
+SHA256sum: 10cb4b74c20e9fbffcaa5d65871baccbcebbee7e6f44e8f81a23864a94b97098
+Size: 120412
+Filename: enigma2-plugin-extensions-socketmmi-dbg_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7bcc3dc8827cd2f737148d89e29ed4df
+SHA256sum: 3af24e870ac7e0aaf41b8e8369e8ded7149809deef3db1aa987ee0ae84a9d731
+Size: 190632
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.0.0+git97+20dae70), libxml2 (>= 2.9.10)
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 40087ff1a5ab9b38a6e2ffe2e2005941
+SHA256sum: d4ea0a2edcb6b523605766aaafbc0739841ea20115c54e4d5aeb4e26b4eed872
+Size: 10090
+Filename: enigma2-plugin-extensions-socketmmi_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-softcamupdater-po
 Version: git73+6758ecf-r0
 Depends: enigma2-persianempire-plugins
@@ -2177,15 +3050,30 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-extensions-sparkvfd
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: db6e1c4e6be21e3cf08f9509e1209e90
+SHA256sum: ab5834978851bf7fa3a2ba4ae5123193d94bd66a08d515fe07039d6cb3c344be
+Size: 5830
+Filename: enigma2-plugin-extensions-sparkvfd_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-sparkvfd
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-tpulite-po
 Version: git28+ea7099a-r0
 Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: f54f62e146db54e0a7ba91cca07a8e84
-SHA256sum: 819384f30f85ecc75d62b8ff5ae0b86c2e5256082098376bc35f0c4e2261021b
-Size: 3412
+MD5Sum: dcbe25c4d57e890c172695ad7407051c
+SHA256sum: 676a4b3cc584855a4a807986a5c9a143441fce77a7b8b909aefac8f074911019
+Size: 3400
 Filename: enigma2-plugin-extensions-tpulite-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-tpulite (translations)
@@ -2199,9 +3087,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: b7f0f199450b035c10c3759464eebca4
-SHA256sum: 99e434151d0af0b3d215eaa8fad3423eb98299196b4ef7323e905da4b21bba90
-Size: 4238
+MD5Sum: af38bb3efaab80f75c59456b1a51d61c
+SHA256sum: a555926633243fcf119a094017163e70ec6ea24832d09b71caae38165f141069
+Size: 4240
 Filename: enigma2-plugin-extensions-tpulite-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-tpulite (source files)
@@ -2215,9 +3103,9 @@ Depends: curl, enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 6416e762f3388c0897734b4974ee8485
-SHA256sum: 41c32104ba3ec3667aff7dcb9c1caad66d8c895f2c2818066fe90c3969e546d3
-Size: 12700
+MD5Sum: 721ae8f419ba8f97895c7aed85656fe4
+SHA256sum: 41c245bb7d984f14b5e68ac63dc13b1071d1a448b91f4033a5ba20e41b870e5f
+Size: 12708
 Filename: enigma2-plugin-extensions-tpulite_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-tpulite
@@ -2231,9 +3119,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 408b46d3410c8b81d03cd233bd64c68e
-SHA256sum: 173b720da802ba0dd2c44fcc9ba26a0bb126fced5eacd353737e0602f8d922ab
-Size: 3312
+MD5Sum: f6a8b19900feeddec3d0612245ec1121
+SHA256sum: a316bb8783d280f46916eea898a5d7bae18c980cbe1e5f131b4a3a8fc66aaba5
+Size: 3324
 Filename: enigma2-plugin-extensions-updatepreview-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-updatepreview (translations)
@@ -2247,8 +3135,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: befb22e51cfbb2a73b5c6394767a0dd7
-SHA256sum: 78b1845feda2ff858a09f1e03299a5c20a41ffcb29848750bbda927b2e3c2bdd
+MD5Sum: accfeb6ba9510d1018ab879988b16ec4
+SHA256sum: 39b8ed36e23c1fc34424af08a0a261a813b37d41bbd45a88bd07c628dc15c57c
 Size: 4926
 Filename: enigma2-plugin-extensions-updatepreview-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -2263,9 +3151,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: b129d771558e79aa1bec38d90c86b0a8
-SHA256sum: d5f903a218aa0187849bb703ee0d28fca0d02596a7522a10d901faf698e9d2a8
-Size: 11274
+MD5Sum: 25909e6d2d56aed4623cb329aa71beb3
+SHA256sum: c1326503449337414b3c6de47b4d5b8b3c8f3a0b904d50933b296b74013bc24d
+Size: 11254
 Filename: enigma2-plugin-extensions-updatepreview_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-updatepreview
@@ -2327,9 +3215,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 74d158119ad259b4c6c6b56b1aed8fea
-SHA256sum: 67cf889718eaef1b785918317e91fbf52681d5a3f675514b816193315be4ad98
-Size: 8950
+MD5Sum: 631b2bcd852db7f2790039c23efb72b4
+SHA256sum: 1c3db3c77a77817fb8bcaf5a9bdc652006a138d0bc3907d1517d6e73d73dbe66
+Size: 8938
 Filename: enigma2-plugin-extensions-yweather-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-yweather (translations)
@@ -2343,8 +3231,8 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 5aaf64e1acbd6ac7e7abd9e16407ce42
-SHA256sum: 2afcefd36c7ba2f9a62e83145770e262b836081d73618c8dab10e6fb60aeb4b5
+MD5Sum: 4cb49754baa279a5d43a0f7bbc39c1ec
+SHA256sum: 9b22616d18498dd777f0d3c4a2717742d4f1d5e6a2def4e5926ca6253c393463
 Size: 6988
 Filename: enigma2-plugin-extensions-yweather-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
@@ -2359,9 +3247,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 96dab592177d9a0cd380f43768aa883b
-SHA256sum: de27bd907456bad41ed348654f9f1cdaefe138d5d433d56489adaed10081420c
-Size: 189810
+MD5Sum: 94a3985696d6ca8880daa860889ae65f
+SHA256sum: 6305ff8f24d5068629c1aa62b4583eb76819303b56614263a7259c416830f581
+Size: 189866
 Filename: enigma2-plugin-extensions-yweather_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-yweather
@@ -2375,9 +3263,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 3beee929ea2db51b067b70647ecebf8d
-SHA256sum: 185256a00e918ca3eb0a111da8e7e032759f584964de7680b47119284d47107d
-Size: 9118
+MD5Sum: 6cc5d0d713b9c25e79a2b6d48ea2669b
+SHA256sum: 656fab78a331677248a42a1d2941f6c1bea5dc3cfc9b0df326d493e4589b294b
+Size: 9154
 Filename: enigma2-plugin-extensions-ywfh-po_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ywfh (translations)
@@ -2391,9 +3279,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 16f646d607f682e234f3777c53a4eae5
-SHA256sum: fa8147fc2a0f2952c0328651211bc090f87d91cf6f646f70fbc4c62c1157ce01
-Size: 7374
+MD5Sum: d79ac6621bb0c33a009b9aee30288210
+SHA256sum: 87fccbbdf73238c0a5c70ff2469356e323e5689f13adecff592d10c26f7b4c02
+Size: 7378
 Filename: enigma2-plugin-extensions-ywfh-src_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ywfh (source files)
@@ -2407,9 +3295,9 @@ Depends: enigma2-2boom-plugins
 Section: base
 Architecture: spark
 Maintainer: Open Vision Developers
-MD5Sum: 562526d6e92b0f163495389e5999d08c
-SHA256sum: fff6468b8aa682255a097a1ae0046cbc2b8643f1b640b2e0bdeb6adc7ac6951c
-Size: 190354
+MD5Sum: a6023901cc4980bce9901999788b4bc9
+SHA256sum: a62a7ccd557c93256bdd2ee26da0db3e94f4b1108a91d562876b84858774ca5e
+Size: 190326
 Filename: enigma2-plugin-extensions-ywfh_git28+ea7099a-r0_spark.ipk
 Source: enigma2-2boom-plugins.bb
 Description: extensions-ywfh
@@ -2527,6 +3415,112 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-cablescan
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3e6a3ef97375b403d8fe2e29f523e580
+SHA256sum: 6ba6a064d8726742c05a176281b39225a98822d982d0fd695bbf3b2dafbeb5bf
+Size: 5802
+Filename: enigma2-plugin-systemplugins-cablescan_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a6004ffb4f474c23cedafa3827c1da4d
+SHA256sum: 68cce1224f4815232b9cd4149af989dd9dc292f4fda0d5681a66714b07d78a38
+Size: 9650
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 38a1a26c34b658acb0ebc98da89a6cbd
+SHA256sum: 62ac573e12698417131c9bbaa2cff8915154167f9645d5f30f1855eefe0626c3
+Size: 3366
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 35de588331f2bc0043a7eb341c43da9e
+SHA256sum: d2a9613287823d4704c9cdb1542b1648db96407da52662d79354d70fdb84836f
+Size: 8822
+Filename: enigma2-plugin-systemplugins-diseqctester_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 72e2616731b08e7a495af2a82516ac31
+SHA256sum: 7626bbb586beae37cd177ce9debd13b2ab4b947c9567695f81edf0ed702c0b57
+Size: 7534
+Filename: enigma2-plugin-systemplugins-fastscan_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7d3de78a8418b608ece26022993d3ffe
+SHA256sum: 52c91fe1c5178a1aef05ff900226a6b5abf245414de8033ba90d6753b7688676
+Size: 3808
+Filename: enigma2-plugin-systemplugins-hdmicec_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: hotplug-e2-helper
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a740f39f47343c9ad34ab5553528c4c9
+SHA256sum: 9feb2eb39bfd92ffd5ec8cc973b28c38e456ad923263b6c7cb7abfaca862dd8f
+Size: 2520
+Filename: enigma2-plugin-systemplugins-hotplug_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-networkserver-po
 Version: git73+6758ecf-r0
 Depends: enigma2-persianempire-plugins
@@ -2575,6 +3569,51 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 5fb8531619df5d6d96042f1588d58078
+SHA256sum: 7ba8c480b791f53fdf8859b04ce80030c4217872396e6893b56dacfce219b45c
+Size: 7276
+Filename: enigma2-plugin-systemplugins-networkwizard_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6e982ecd71398724fc598ba47e57ad71
+SHA256sum: af13b377dc7b7acf9b701f4491f41626f360ddd40f25547f75291ee0d85d1aa5
+Size: 3454
+Filename: enigma2-plugin-systemplugins-osd3dsetup_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: bf6961b6f401c8ff94d2f6bd334c87e9
+SHA256sum: 8fe28f44657c2222c6f4e65276fa1c4067f413fcc8de816dbea72fabc2b39195
+Size: 5482
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-pepanel-po
 Version: git73+6758ecf-r0
 Depends: enigma2-persianempire-plugins
@@ -2621,6 +3660,21 @@ Source: enigma2-persianempire-plugins.bb
 Description: systemplugins-pepanel
 OE: enigma2-persianempire-plugins
 License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ea96b7f9d72245e951acc30088695eeb
+SHA256sum: 235f2227e693ce048ad1951da69d11026ddec953e3e6acb95b6f4e13bfbc4969
+Size: 21134
+Filename: enigma2-plugin-systemplugins-positionersetup_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sambaserver-po
@@ -2719,15 +3773,45 @@ OE: enigma2-persianempire-plugins
 License: GPLv3
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: eea74842d748bd939aaa0e805dd3449d
+SHA256sum: c2694a0fbbd7339b7b6f8eb2ea90477a31b50c3a3d5fde8d596e4f0fb0543569
+Size: 2860
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f96b34928ae07674a253a3eadb28f45e
+SHA256sum: 6e6f949461c5a4d91fb10968aafab1cdcd76802587765c231ca46017611c43b9
+Size: 11688
+Filename: enigma2-plugin-systemplugins-satfinder_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-serviceapp-dbg
 Version: 1+git161+02956ea-r0
 Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6077d8310b47d7a8a57472231519d6c7
-SHA256sum: 9be9be84a93c56bd42e74c976812c975ad3ae1c302e4c970a214d1e204c65465
-Size: 16530
+MD5Sum: ce3f13b81b042415641d1ee3f3aa9345
+SHA256sum: 75f00121c8a894922ba6da2ac25791eb35e3fc5e469e7cc9cc52bfc84c431d03
+Size: 16506
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0 - Debugging files
@@ -2742,9 +3826,9 @@ Recommends: enigma2-dev, glibc-dev, libcrypto-dev, libgcc-dev, libssl-dev, libst
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 71767c1c4c93d9246d0e452d7533cfd1
-SHA256sum: d4239ab46e2874ac0d480a7dd3eb3053f8a3832a1b1549e9ca05be6f21f17192
-Size: 5670
+MD5Sum: 0800fe7e6783681d3b97cb1d29ab6962
+SHA256sum: 956fbdcdf419db83898dca971b6cedc6cc15ceefa2c2bddf6ece77c8aa5d19df
+Size: 5672
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0 - Development files
@@ -2759,9 +3843,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f0ac3eefcc9714af92626fb1b1ac537
-SHA256sum: b9704d67f84fccb04cdab8dbcdf600819af0d06ce1e01dcd0a0092a750104ba6
-Size: 136352
+MD5Sum: 76398af35afec2bffa9eb093cac2222d
+SHA256sum: f0e6193b0d142cad8e5a3b0cc4270f3241721ba4cb98adaa0a4caa8d19c65731
+Size: 136508
 Filename: enigma2-plugin-systemplugins-serviceapp_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0
@@ -2823,9 +3907,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b669a5151d86ff2dc4c8eaf08e1d931
-SHA256sum: 2e0010d09fdeb8a2a847658fb94cac5b4abbfab6f65a8cca67ed6b0890fe4cdf
-Size: 10038
+MD5Sum: 21c0b70c0f7635550294ee7dc8c1e29e
+SHA256sum: ba878ed67c728ba3a7eee7241a1189e8dfd3cedc621406c6af6b62638fb612ea
+Size: 10060
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git29+c7750c5-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+c7750c5ab3-r0 - Debugging files
@@ -2840,9 +3924,9 @@ Recommends: enigma2-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee818896ada1d56d575131fcfc06979b
-SHA256sum: 6127f36ef7a7aa888638ed7af6a519d108ef36bfa2f398a4af8e211606b2580a
-Size: 1148
+MD5Sum: ad696ec0e5e4127140a8a7208b3e2bc0
+SHA256sum: 641a77683c55e428c483d2410f5f838c7266ca879a4e8777566b0d7502459117
+Size: 1154
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git29+c7750c5-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+c7750c5ab3-r0 - Development files
@@ -2858,13 +3942,43 @@ Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-b
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60b1ae9512f12c39b06ce17a2e5b4772
-SHA256sum: dfcffff90fbd1467fbd6227b472a01d6aab04a84207c5aa93c6fc09fa9c6d3ed
-Size: 57334
+MD5Sum: 09503d1dcce34bd08d0f2b860bbbe11d
+SHA256sum: ff5117e3d23803d9ce4a322de59ce5e8f2bf77d915dece24365ea69e28da2420
+Size: 57386
 Filename: enigma2-plugin-systemplugins-servicemp3_git29+c7750c5-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+c7750c5ab3-r0
 OE: enigma2-plugin-systemplugins-servicemp3
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4boostercontrol
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3afabee58bdd1337f878c9b2c4ace2ab
+SHA256sum: 7d0dfa5f23a353712a2dc7bf6f7aee938dc775cb7f94c94902401b13ac57fb0a
+Size: 3796
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4boostercontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4osdadjustment
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 734e5c9566c85d90a385e2b10f94f200
+SHA256sum: d6fe157b0cb261885d1fef2364aef9226b792aff5d700eeb1060c75d07fd6328
+Size: 4710
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4osdadjustment
+OE: enigma2
 License: GPLv2
 Priority: optional
 
@@ -2914,6 +4028,148 @@ Source: enigma2-persianempire-plugins.bb
 Description: systemplugins-simplesatscan
 OE: enigma2-persianempire-plugins
 License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: cbb9710025305ed71bb3f3aef71883b5
+SHA256sum: 362218651dc3e0c96324c9d81604e9076dceca6a47c3922ba1245b231f7668be
+Size: 42652
+Filename: enigma2-plugin-systemplugins-softwaremanager_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 36357eaee1d38461df97617386408f71
+SHA256sum: df3cd13a39ba9299b26405009e8c9bc68a3df84a79c4c5a312597d066f847076
+Size: 2958
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c0ff1e400407327c4621153299350aae
+SHA256sum: 291d6ab003b21b81b0dc5a6bcc222986d61a66be41d4ee475efe9fbd2aefd019
+Size: 8198
+Filename: enigma2-plugin-systemplugins-videoenhancement_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4d977df12b7c38849ced5f93b17b4a55
+SHA256sum: d1fb5804e74943e0c08a703557170ed7031b090150abb124b9daf5467d696d9e
+Size: 68980
+Filename: enigma2-plugin-systemplugins-videomode_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: Follow_OE+git18288+2fc7599-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 06fef1f8c4e5715f2220a43f30a43921
+SHA256sum: a8547ece33417afd2510fa82c9ca721d7da6306e327c5829f4add7f838a3e855
+Size: 64944
+Filename: enigma2-plugin-systemplugins-videotune_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: iw, python-wifi, wpa-supplicant
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d8e68b968d03a203d98850bd4ad70a68
+SHA256sum: 6c09bfc3f40f79c41e9a49440746781b702cf2db0452b3f211cab9febbc6e467
+Size: 11114
+Filename: enigma2-plugin-systemplugins-wirelesslan_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: Follow_OE+git18288+2fc7599-r0
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: bd599dfae1590a1d04c08d7f548406dd
+SHA256sum: 9204d4f8fba1be16c0b94c63597dcfd8052772d7db0baed9c7076c130ba9e1b8
+Size: 502624
+Filename: enigma2-src_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Source files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: enigma2-dev (= Follow_OE+git18288+2fc7599-r0)
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 52104a766fe2bcc3e1f92163891fd9f7
+SHA256sum: f69baa26cf3e9c20f72bd6c36192f057096d6b2c95588558a18bd01607d4c7b2
+Size: 2034
+Filename: enigma2-staticdev_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: Follow_OE+git18288+2fc7599-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.25), libcrypt2 (>= 4.4.15), libcrypto1.1 (>= 1.1.1f), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.8), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.9), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.62.4), libjpeg62 (>= 2.0.4), libmme-host, libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1f), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git97+20dae70), libxml2 (>= 2.9.10), python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-service-identity, python-shell, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
+Replaces: enigma2-plugin-pli-softcamsetup
+Conflicts: enigma2-plugin-pli-softcamsetup
+Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss, ofgwrite, python-sendfile, virtual/enigma2-mediaservice
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 11223cfc32a8a64eac8dfc5dff7df087
+SHA256sum: eec9268a8e5f48c25d4ddfebe0ab392f739444e304953f355c21445fa7f75e5b
+Size: 2685944
+Filename: enigma2_Follow_OE+git18288+2fc7599-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
 Priority: optional
 
 Package: fulan-dvb-modules-spark-dev
@@ -5913,8 +7169,8 @@ Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg, alsa-utils-alsamixer-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9900370c2a19bcea82129bc51c1f23aa
-SHA256sum: bcbdadbd637601c7a9cdedb2036fa851c7e18012794e2d4cbfc39283e57bc4d8
+MD5Sum: d1911c1d2ee0be2d3c09019d3c9efe23
+SHA256sum: 93be118f8fe996218f94c1d0624a71f774f1d858b6ede561675ecbe274372a36
 Size: 672
 Filename: packagegroup-base-alsa-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5929,8 +7185,8 @@ Recommends: alsa-state-dev, alsa-utils-alsactl-dev, alsa-utils-alsamixer-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3fc201b65d7eb1686b3e0656a00500a
-SHA256sum: b495e1af9d235346b79b22204352c35d965e6f933ef2a28bde35bf1a15fe32fc
+MD5Sum: ba8e5c95e87db5c3576a019a3c44f5a7
+SHA256sum: a8b75302e25d7c4cd9e94b402495457e2a8d924c247e3beca89284189520801c
 Size: 672
 Filename: packagegroup-base-alsa-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5946,8 +7202,8 @@ Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd2f3f83fb52298019acebba9847ee1e
-SHA256sum: c4b0d304bc37eab5711368b382d94745d98137afd078e7da590a41e7ec7bae99
+MD5Sum: 7153bbaeec7639ad65c9ffa96860aba9
+SHA256sum: 46edc66dd16ccd0af1373054c7ba399fe9082b1164b08a7dd997a959a9df5cd4
 Size: 706
 Filename: packagegroup-base-alsa_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5962,9 +7218,9 @@ Recommends: bluez5-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac7e9fe058a7eb62f8e7a261434c89b7
-SHA256sum: 20ca5f15d91b319fca41b67f246450e1624d36fdaedefb28d2874a36661d1ae8
-Size: 656
+MD5Sum: aeb83a9c38204e332381f3b28d4713f3
+SHA256sum: 6a5f8cca71bc0eec0da8807c4bd8bea8a41019279e9e4de3cb2127138da0e11d
+Size: 654
 Filename: packagegroup-base-bluetooth-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -5978,8 +7234,8 @@ Recommends: bluez5-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56c074625b6daed30151f60905c65482
-SHA256sum: b86b091930440eaae3d38eb7659d27669a9beaf1bfa4896f109964f7faa1cd66
+MD5Sum: 32c302d425ded25cd047f1dcab20fbdd
+SHA256sum: c7e8436467b117d966ab1fef21be4efb1d3f0c8459de98df72c00dd12610ad02
 Size: 656
 Filename: packagegroup-base-bluetooth-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -5995,9 +7251,9 @@ Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart,
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4deb4a881c5bb7b3f2b047805d137077
-SHA256sum: e0aacf10d94e7db4274a93de47666470e6c14a772d1b41d3b249bf123b9d8b79
-Size: 710
+MD5Sum: 5395c26d75e266c9c05fb0bf413b857f
+SHA256sum: ebb95397f60c88358359617f8dba7c88d14defbdb7852f4b6b97176176ea6990
+Size: 712
 Filename: packagegroup-base-bluetooth_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Bluetooth support
@@ -6011,9 +7267,9 @@ Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3b8e2551c325b70862b76c73c82ec02
-SHA256sum: 19300cf53f5468a7357e44cddf579d740fb8bcd174035d15eebb81a1b7b8843e
-Size: 758
+MD5Sum: 7511aaf16e097d5fc271d82cf9299374
+SHA256sum: b8324044b8da49f8b5543b4e716e56c19f9acab86ed3769d61ea2aa00bf925ed
+Size: 760
 Filename: packagegroup-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package - Debugging files
@@ -6028,8 +7284,8 @@ Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 700ecbd3925ef7bf802d3fd0f15b75ba
-SHA256sum: d4ff0be15708b9a7bf8596f65dab30013205cc8fbc052a2571d85022bf82fecb
+MD5Sum: 8ce2dbc7bb71bdca9ce8c18552d9d298
+SHA256sum: ab4815d3820ba8c605fe892947821ccba1e4b3a78582ee8150a43bc2f7251b91
 Size: 786
 Filename: packagegroup-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6044,8 +7300,8 @@ Recommends: e2fsprogs-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, hdparm-db
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c1f3ceccd784a0ed774370e1ce6c838
-SHA256sum: 0d3fbbe3b277972ec5df24d689ba92e72015788ff5eb929597fee62ba0b0c872
+MD5Sum: 7e759dc50d959bc2d0e254d6f543c03b
+SHA256sum: 0940552276493a66f6aa583d271ad7d062bd1e0dc36fc179570ab557dedb8661
 Size: 676
 Filename: packagegroup-base-ext2-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6060,8 +7316,8 @@ Recommends: e2fsprogs-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, hdparm-de
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ed44ea363e25cbd5b0178fa2c767358
-SHA256sum: 0fbe56c55278d8223308031e04bd8a8a43f057154ad1a301f8b6449fab28cfb9
+MD5Sum: f089e15bf7203f1a3c8c676b3da9cebc
+SHA256sum: 6ee587cf4b89793d3e239400e94cf2fe0f9545eb827762154004aa14afdb6a97
 Size: 676
 Filename: packagegroup-base-ext2-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6076,8 +7332,8 @@ Depends: e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs, hdparm
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b4aee6599322fae59adee37309e7ecb3
-SHA256sum: da96dc6775dd0d93343be2ae36aa4eca5b05a6b10c0891c05d8b31dd0a6518e6
+MD5Sum: 825f036628ca43098cc432dbc59a4d2e
+SHA256sum: 7551c22bc8e56531f55d589eeb977f42db67b6a00cf2bcdaac6e866410a7a0df
 Size: 680
 Filename: packagegroup-base-ext2_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6092,8 +7348,8 @@ Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg, packagegroup
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d71847bda9e47b53e5b00119621fdea8
-SHA256sum: 97888004f6889fdfa7e9eb8e167e80c3e99522e4ad00bd59c56815db6f103439
+MD5Sum: 5d9dab5d4f2e699534113f16873a90e3
+SHA256sum: 81901c30fed21cc5ba683ccaa045d0a0e8dc44a6b8e86dc1a3e7d49280d574d4
 Size: 670
 Filename: packagegroup-base-extended-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6108,8 +7364,8 @@ Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev, packagegroup
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce990434fe3b02b8ed7e4c789f849644
-SHA256sum: 233cdbfadcbfa19dde69a57ecfa0ea724fd14b5fdd57f7d2b5a94f1d404b17e9
+MD5Sum: eaff4b13a8ec98a4124ca2631960fa93
+SHA256sum: 94f97223ed03bad102ef3d67d403f8fbf1b5269cd8e53bff4faed7373e9721da
 Size: 670
 Filename: packagegroup-base-extended-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6124,9 +7380,9 @@ Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-wifi
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b94238ce7db33bb0f708131e760f928
-SHA256sum: 6f8de607a3cb2972d41c5d8e05006114d339efecbe6d0fd96ad0fc1bfebdb2e7
-Size: 658
+MD5Sum: c135e3fc97b52c9e1c18e2c13343a538
+SHA256sum: 4959d34ce7d70e99bd4d73a576619c0134bfdf2ad655bfbb238ae536af4d2600
+Size: 660
 Filename: packagegroup-base-extended_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6139,8 +7395,8 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5cc298307f08059024394197987de89
-SHA256sum: 8450d90c912724de4bade0897f3e6426af243189c8156bfa76b13596636dd36e
+MD5Sum: 32d2f6fdf2e165355a50ee5cfecd180b
+SHA256sum: becbbdc55207ccd8f1a30b075b671a5a8dfa73c2c6111d14128571fffa0bd70d
 Size: 638
 Filename: packagegroup-base-ipv6-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6154,9 +7410,9 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d7dc86172e67652b30b3945550fb725
-SHA256sum: e758ad4fe0f7b8ed47fb025fabeb9725bea525f305d1ad14c47c7d3b597dcda9
-Size: 638
+MD5Sum: 55ea2e7d93b0c255c2636a877fd7cef0
+SHA256sum: 0b371db556aba814b56e73ffab69d31d8e9cf5c03fdce1330fade5a18f626555
+Size: 634
 Filename: packagegroup-base-ipv6-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6170,9 +7426,9 @@ Recommends: kernel-module-ipv6
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a1d6b2776465876b91df1186b6ef9200
-SHA256sum: df432800b12fab756970d26164fd05cab72df1115010fa70c80f49d131fb31d1
-Size: 658
+MD5Sum: 190f3322a0dfa47f4111d817de2d69ac
+SHA256sum: 4f6088aedcf3ed8cd463b7a663e074301f5d3cfb64335c32b6c950735fd47b48
+Size: 656
 Filename: packagegroup-base-ipv6_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: IPv6 support
@@ -6186,8 +7442,8 @@ Recommends: rpcbind-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12118c80953cc94693a40e9ca70b812e
-SHA256sum: d1b67e6db3c358e610033ef397ee4104a1aaa01a896ca751311108c4baaf868a
+MD5Sum: 3ba9985a1380af81c074b32e93b06df2
+SHA256sum: 2202b1fa921b89aa50e986e0fef536fcbce22668ccd545c885148e2aab319929
 Size: 652
 Filename: packagegroup-base-nfs-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6202,8 +7458,8 @@ Recommends: rpcbind-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e94a86c0b1f3e84764eb0fc3229c6ae4
-SHA256sum: 2a24092f99144f908a9cb0ca3b8912c8c4d67a7682a8aad3c0699ae452d2843f
+MD5Sum: f76ce75b753234aeaf8041969af8a7a4
+SHA256sum: e1f59655fb28b961bfd7fded6d4f2cfdcc2634e2bf434db814c104cba26133b7
 Size: 652
 Filename: packagegroup-base-nfs-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6219,9 +7475,9 @@ Recommends: kernel-module-nfs
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f59af9895d36811bbdae68ede6cf8de7
-SHA256sum: facecc8fc6cf59cf629a81f278493f8d4cd858b4884fe9a94172de838e8a1509
-Size: 682
+MD5Sum: 483eb47da87c0666b2b429eb091f3be1
+SHA256sum: 1c730dea2f9f22d198b7ba262569716a6eb8c04d23892ba8d0ae90fa599b1cbf
+Size: 684
 Filename: packagegroup-base-nfs_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: NFS network filesystem support
@@ -6235,9 +7491,9 @@ Recommends: lrzsz-dbg, setserial-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 794ec6b264bd5e04709691a5729c0591
-SHA256sum: 1b3275f8c52c0df05cb02cf17b2c355e399b4f2de9ef5b4361f3a96bd3857ac4
-Size: 660
+MD5Sum: 4173f9f573d4cb25963ffb4c1110ffcc
+SHA256sum: eb2db42d69a10efdebb35326f6d14fc94c25ff22ff3e8f4bc66ff80fd7581194
+Size: 658
 Filename: packagegroup-base-serial-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6251,8 +7507,8 @@ Recommends: lrzsz-dev, setserial-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b4e7f9d97951ab31b53fcafdfa544124
-SHA256sum: 25651ac8f711230e7b92cc16e3357c97e231d8f3b3eb3abe7e6fa9a4cce82731
+MD5Sum: 3c30a0e1501e20051f2cea2bc5585098
+SHA256sum: 54826a58c99f3d80535b1f4b963956ff4778f231ba245934240084f3a1a8916d
 Size: 658
 Filename: packagegroup-base-serial-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6267,9 +7523,9 @@ Depends: lrzsz, setserial
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4156b51dae697ed4d3defb6dbd036760
-SHA256sum: f6e616bee9766c757e571eac16e4d77db6d11dfe19f9d56c498ffb0a86ef97bc
-Size: 658
+MD5Sum: fae9c7e8897dc7d129b5e78c46dd3481
+SHA256sum: 31438394788ec0245d3ffd9ce6eb62e5e68915546e7ceca468d986f0f27d75f2
+Size: 656
 Filename: packagegroup-base-serial_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Serial port support
@@ -6283,9 +7539,9 @@ Recommends: usbutils-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6af5bfd209b771bdc28610f372103b7
-SHA256sum: 3586760512c8fc01db18bc3a29cbead93be89afeb590ad0af50912f3e921632a
-Size: 656
+MD5Sum: e83107a3a753e778320c4eb90882b698
+SHA256sum: 4ce40c6f46e6d0091a033d8bc0b5784d1c930f2a1c19a886a6eb9ac0fd5ed870
+Size: 654
 Filename: packagegroup-base-usbhost-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6299,8 +7555,8 @@ Recommends: usbutils-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1732d3fddc4e5ea34279927a28f31f35
-SHA256sum: 298a04444c93b89c830beded1107b2e42d505ada52800111878b675d94ae9bff
+MD5Sum: 3fc5f2a1a269a3279fff817a8a970ba8
+SHA256sum: a12d972e3e80737f500c40850770a696b99586b4bd0416a50bd9ae448b43651b
 Size: 654
 Filename: packagegroup-base-usbhost-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6316,8 +7572,8 @@ Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-h
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b754ca6fcfd3b1cb42bd79242481c507
-SHA256sum: 3ffe482f09d3635b2ac585b0e157a9d90a5fd7fb512e7e3dfcbc587c4deb2588
+MD5Sum: 744884479bf8d4657c47688c2bb7f896
+SHA256sum: d7ba439097c71d8371567069d943e7ab3f51269dfc058017bbdff48ee53f3a38
 Size: 736
 Filename: packagegroup-base-usbhost_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6332,8 +7588,8 @@ Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf89b5e4519042d873cbe9071fc870a6
-SHA256sum: 57759951569305d46cd29da5423124253651ab72351a938883d5d3352830e680
+MD5Sum: a58f9c1d62ac0bce75f0f8c62deef12d
+SHA256sum: 5a5247727d2d2ee886591977d9bd5af9b34082534c7b5d21f40a8c8a64236306
 Size: 682
 Filename: packagegroup-base-wifi-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6348,8 +7604,8 @@ Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 39bb5ed3117fce2fac6d5f76e3db2699
-SHA256sum: 94ca4b84642268c666fdb590e754b21ff33e8204dd7d41c602ecd2e9266bd76d
+MD5Sum: 986d9e1e8a262ffced3744cae3b92d13
+SHA256sum: c20aa02d255a8e3fc822bc2ebb766694eaaf804d001b79f05c8afc0590375a0e
 Size: 682
 Filename: packagegroup-base-wifi-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6365,8 +7621,8 @@ Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, ke
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3274507cf512c64d330ed5477d2d15ea
-SHA256sum: 21b0be429c51686c7b0210b449c3e0b41c3006f30898899a07939492d8bb40eb
+MD5Sum: 1f6236588a279f85fe9f774f6f60b979
+SHA256sum: 1b954c4605df2a0a4deee380c96e5364162079fe52a16d4dfb6763511d4b938c
 Size: 760
 Filename: packagegroup-base-wifi_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6381,8 +7637,8 @@ Recommends: avahi-daemon-dbg, libnss-mdns-dbg
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8ec6999fcf15c4a74c8891a05ddd974
-SHA256sum: ac5beb78a5c249fd7159a8955e1c386e9aca6f7d3da8aa901bae840d374201db
+MD5Sum: 6f29f0fc13ff92023b042ce702112c77
+SHA256sum: d8a23f5e2bdf8225ef5dc9dde79357c985b938fcf2d9bc7482bfe19375d4e3a0
 Size: 676
 Filename: packagegroup-base-zeroconf-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6397,8 +7653,8 @@ Recommends: avahi-daemon-dev, libnss-mdns-dev
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a53e2777d665d2caa664f4e9ebe9e3df
-SHA256sum: cddab64339856cafa852df716d3751e5ca56abd8980fc40c7c163bdf27098e3c
+MD5Sum: 450ce124c5fa47b619703213ca551869
+SHA256sum: 0b7690664a55b395b4947c494cf10be25e955f5e14ba004fb9320e32f381bc82
 Size: 676
 Filename: packagegroup-base-zeroconf-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6413,9 +7669,9 @@ Depends: avahi-daemon, libnss-mdns
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 61b7528547c9b63ead2e2e30270abfa2
-SHA256sum: 79daadfa247403766206176a3bc726c5fcb417e43ebaa70e07d28321268aa312
-Size: 672
+MD5Sum: 161d016dd30e2879aaabe5134d102e2b
+SHA256sum: 17bf1c8f2a070371aa703cb1a3ed990579a19c182689b468015bcb3a96ecc6c1
+Size: 674
 Filename: packagegroup-base-zeroconf_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Zeroconf support
@@ -6430,8 +7686,8 @@ Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, 
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bf09f280de81c6ad158d461eff0477b
-SHA256sum: 32c420656439d96716e47e64d9b7fa722b4367f8baddd715fb9affc41ddff13e
+MD5Sum: 5c05abb1d16687ca6d8aa8e4a360d1e8
+SHA256sum: 2c71b1394049e5fc373f12dd328a9ed0533b4acc5500072eff8f670fb98eb140
 Size: 742
 Filename: packagegroup-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6495,9 +7751,9 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d042e4db566198fb3ef116dbdb15268
-SHA256sum: c7cb2f0e0bc6165dae46b7d1a53559fb39f4d3d098fd1c50523abf60ec201aa5
-Size: 636
+MD5Sum: b1aa441a6bda848cf5df49be5e3ad6e9
+SHA256sum: 641fd92ff59398ae254d1388ba6c4e95afe0e31a6c5e56eba70aed6ab6b322af
+Size: 638
 Filename: packagegroup-distro-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6510,8 +7766,8 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 477e916a64f9bbd248433be81b74641a
-SHA256sum: ab5727d219bfa953c72ff86b5e6d0a797032679779919c4516a713ddb05fdd44
+MD5Sum: b8dc85e95832a02b8d8c1d10393f855f
+SHA256sum: dc8fb1f64ec1e2c41d70b3ed6a19a975f1b49559461bad90234344f4a5089dda
 Size: 636
 Filename: packagegroup-distro-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6525,8 +7781,8 @@ Version: 1.0-r83
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe2f7dae459e27f90d9e4f0a4d2d315f
-SHA256sum: 33284ed21eb940e3943d62366657b1f34a83ff8cdd49b04d8368ccdb4efbfcab
+MD5Sum: d607ee3567898d1a8a69cddf19ba0f98
+SHA256sum: 80077d0cf272818cf3680b5a1cf3cf63cdf8001daa25ac49aa0e85235f338e17
 Size: 640
 Filename: packagegroup-distro-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6541,8 +7797,8 @@ Recommends: aio-grab-dbg, enigma2-plugin-systemplugins-serviceapp-dbg, libpcre-d
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: beee5858352ef2416136bee146465f4c
-SHA256sum: 601fdfe8a02b5e3a62fa678a89e1d6c30f96ef23256c63bf65f8881822ccbd66
+MD5Sum: 5e12cde9a4bd4327906ac68feb1d7864
+SHA256sum: b52483154ec8d16be5f0f9cbf26629504be9092725ac471e2c8cb823a1a512e8
 Size: 692
 Filename: packagegroup-machine-base-dbg_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
@@ -6557,9 +7813,9 @@ Recommends: aio-grab-dev, enigma2-plugin-systemplugins-serviceapp-dev, libpcre-d
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5add0e4c82a593af181aed03a8ab5f1e
-SHA256sum: 7903eb358a9ba3a030f38cc7651674d404c43fa2c4d22b10d4aefd1d4a3b81cc
-Size: 694
+MD5Sum: 56e69efdfcaaffed5e87666fe3ca4b2a
+SHA256sum: e5501a0edcbf0786adfb4e4f9d10af0e26aa9f613ed4924c9575b3686da46b80
+Size: 692
 Filename: packagegroup-machine-base-dev_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Merge machine and distro options to create a basic machine task/package
@@ -6574,8 +7830,8 @@ Recommends: enigma2-plugin-extensions-sparkvfd, enigma2-plugin-systemplugins-ser
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7968e421290717dd1c1ba383d283a296
-SHA256sum: 985be47b8ddb90d2dcc675a45d7e43afb79f6a7efece4fe0c761b4029613082e
+MD5Sum: 8feca74839ccdea83d84373e658d5f91
+SHA256sum: 7f9e673389bbf9a8f6849063a6ba384a1ac5c6dcf6242f9cf5255333ca901a6f
 Size: 762
 Filename: packagegroup-machine-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb

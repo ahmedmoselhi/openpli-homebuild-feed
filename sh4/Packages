@@ -13593,8 +13593,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 31b5e7387971749830a46d7691524b36
-SHA256sum: 9dbbe0d2d09923111745cb304015e4cd7bc45cd338c064b8858c036d8baa3811
+MD5Sum: eed31cce81cb1b123730bb8a238eceac
+SHA256sum: 5871ac194cfe5cf1a12abeebfba6d100f06de5da3174195c37dfdb4af9d0bcbe
 Size: 2156
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.1+git729+64b5f03-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
@@ -13610,8 +13610,8 @@ Recommends: enigma2-dev, glibc-dev
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: ec12aea67d9bf0694d5504656e3a066e
-SHA256sum: fe168f2ba06a8d66221262fc163a5ee4aa472cd342bade4178c2f8dbd2d818de
+MD5Sum: 87d4308dcb52019b3acd24c155c58b3e
+SHA256sum: 0fbf00600da07e25fbc76a166407f38b125fc4638f168f68f12dea8e481f0743
 Size: 750
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.1+git729+64b5f03-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
@@ -13626,9 +13626,9 @@ Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 8c778d5bafa29c2c024937379d3fcd08
-SHA256sum: a0dbac0d4e5136976c6849a7c25a8d2bf0a90adfc9910931428c9cba4858ac0e
-Size: 38292
+MD5Sum: bbef4fd3ff17f1f8905d797b87202b78
+SHA256sum: 8a0382d0c38c00c612002c08ae6f11acb433b9b7f4037df2cc3db2390845759d
+Size: 38278
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.1+git729+64b5f03-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
@@ -13642,9 +13642,9 @@ Depends: enigma2
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 16cf41dc69bd85ce5b4782b2ce867798
-SHA256sum: 205ad273150f3aaebe417770146858f39ec274bba16904e7c30f38b9e5bed68d
-Size: 47496
+MD5Sum: d8dd8d57f76f6f4f599014c201c06940
+SHA256sum: 3beb0e1be2b51842e747d131105f0cb52d276675f16312102811d6b993da2fbe
+Size: 47480
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.1+git729+64b5f03-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Source files
@@ -13658,9 +13658,9 @@ Depends: enigma2, libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: d77e0905aeb251a16e87ef2cca0371b7
-SHA256sum: ca24da2264676eb22756e55197c1d692cd715c2e1d884e65bc085ad632223060
-Size: 221662
+MD5Sum: 7925c2580300e62345d421528ddbdfd4
+SHA256sum: aefb30fea02d6a96e3af38018de228be71ca2d391a99d78c7f1bf996296d0341
+Size: 221680
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git729+64b5f03-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
@@ -86267,8 +86267,8 @@ Version: 20200502-r0
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: aa9cdbd710982438417267ee8597ac37
-SHA256sum: 8e62798f06da1bdf59089c9a88298f223caf7c77c2616f97f533989d3f89be4b
+MD5Sum: 359cb9d88c4e9212cca69d1ad94179bd
+SHA256sum: 48c10fb1fa0e16277d3b48b08c3209af572a4c99bd4dee1b68caa714646db3bf
 Size: 654
 Filename: openpli-bootlogo-dbg_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
@@ -86284,9 +86284,9 @@ Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: 2cdd3027efbe9bb13bfcbb00d66dbb52
-SHA256sum: 5b204da8bb7ef9f09d87d354b41d0d28ac673b986c022c3475e34ebad94fef87
-Size: 724
+MD5Sum: ff0cba919195f5c57685f31023468dba
+SHA256sum: f11146b908e0344e5967cb46defcc97d2dad536b7b71e3b2ab5dd38941dbe92a
+Size: 722
 Filename: openpli-bootlogo-dev_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
@@ -86301,9 +86301,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: sh4
 Maintainer: PLi team
-MD5Sum: 1dbabe32f6199166d0954e251a4740f1
-SHA256sum: e382effed49d78f7673e244ffc63fb2be3adce53a13331e56f89e26e493cb7f0
-Size: 148470
+MD5Sum: 443fb5f066cdf17ee4a02f284b21ff73
+SHA256sum: 22b72d89e17035142c7ab6396689d3d9ae65200b12b3c081159b33fd9b13156d
+Size: 148472
 Filename: openpli-bootlogo_20200502-r0_sh4.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
