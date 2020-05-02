@@ -3,8 +3,8 @@ Version: 2.7
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6329c5ab21b0499eaeb96d070507796e
-Size: 67963
+MD5Sum: 22acca4d09cce9810dc598c752b20304
+Size: 26196
 Filename: enigma2-plugin-extensions-ts-sateditor_2.7_all.ipk
 Source: enigma2-plugin-extensions-ts-sateditor.bb
 Description: enigma2-plugin-extensions-ts-sateditor - a plugin that is used to edit satellites.xml directly
